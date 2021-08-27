@@ -1,0 +1,1477 @@
+Années de comptage;Identifiant du lieu de comptage;Nom du lieu de comptage;Date complète;Date;Heure;Jour de la semaine;Comptage relevé
+2018;1000;Quai de la Fosse vers l'ouest;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;315
+2016;1000;Quai de la Fosse vers l'ouest;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;94
+2015;1000;Quai de la Fosse vers l'ouest;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;71
+2015;1000;Quai de la Fosse vers l'ouest;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;46
+2014;1000;Quai de la Fosse vers l'ouest;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;87
+2013;1000;Quai de la Fosse vers l'ouest;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;67
+2010;1000;Quai de la Fosse vers l'ouest;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;43
+2009;1000;Quai de la Fosse vers l'est;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;90
+2008;1000;Quai de la Fosse vers l'est;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;46
+2008;1000;Quai de la Fosse vers l'ouest;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;44
+2006;1000;Quai de la Fosse vers l'ouest;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;32
+2005;1000;Quai de la Fosse vers l'ouest;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;48
+2004;1000;Quai de la Fosse vers l'ouest;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;98
+2002;1000;Quai de la Fosse vers l'est;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;43
+2001;1000;Quai de la Fosse vers l'est;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;25
+2001;1000;Quai de la Fosse vers l'est;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;55
+2019;1001;Bd Kennedy devant le Chateau vers l'ouest;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;74
+2018;1001;Bd Kennedy devant le Chateau vers l'est;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;107
+2016;1001;Bd Kennedy devant le Chateau vers l'est;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;215
+2015;1001;Bd Kennedy devant le Chateau vers l'est;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;49
+2014;1001;Bd Kennedy devant le Chateau vers l'ouest;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;62
+2011;1001;Bd Kennedy devant le Chateau vers l'ouest;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;51
+2011;1001;Bd Kennedy devant le Chateau vers l'ouest;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;46
+2010;1001;Bd Kennedy devant le Chateau vers l'est;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;37
+2009;1001;Bd Kennedy devant le Chateau vers l'ouest;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;44
+2006;1001;Bd Kennedy devant le Chateau vers l'est;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;62
+2006;1001;Bd Kennedy devant le Chateau vers l'est;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;35
+2006;1001;Bd Kennedy devant le Chateau vers l'ouest;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;24
+2006;1001;Bd Kennedy devant le Chateau vers l'ouest;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;42
+2003;1001;Bd Kennedy devant le Chateau vers l'est;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;40
+2003;1001;Bd Kennedy devant le Chateau vers l'ouest;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;40
+2001;1001;Bd Kennedy devant le Chateau vers l'est;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;18
+2001;1001;Bd Kennedy devant le Chateau venant du nord;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;
+2001;1001;Bd Kennedy devant le Chateau venant du nord;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;
+2000;1001;Bd Kennedy devant le Chateau vers l'ouest;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;26
+2000;1001;Bd Kennedy devant le Chateau vers l'ouest;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;24
+1999;1001;Bd Kennedy devant le Chateau vers l'ouest;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;53
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;27
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;19
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;76
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;18
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;20
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;47
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;20
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;56
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;10
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;14
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;12
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;12
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;28
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;12
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;13
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;44
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;65
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;50
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;11
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;34
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;49
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;9
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;6
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;16
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;11
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;11
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;19
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;57
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;19
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;32
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;12
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;48
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;32
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;18
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;76
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;8
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;25
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;40
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;17
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;13
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;33
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;10
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;4
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;19
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;22
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;11
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;10
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;20
+2019;1003;Pont Audibert rive Nord vers le sud;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;430
+2019;1003;Pont Audibert rive Nord vers l'est;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;29
+2019;1003;Pont Audibert rive Nord vers l'est;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;45
+2018;1003;Pont Audibert rive Nord vers le sud;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;142
+2017;1003;Pont Audibert rive Nord vers le sud;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;113
+2017;1003;Pont Audibert rive Nord vers l'ouest;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;31
+2017;1003;Pont Audibert rive Nord vers l'ouest;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;64
+2016;1003;Pont Audibert rive Nord vers le sud;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;103
+2016;1003;Pont Audibert rive Nord vers l'est;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;49
+2015;1003;Pont Audibert rive Nord vers le sud;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;230
+2014;1003;Pont Audibert rive Nord vers l'ouest;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;29
+2012;1003;Pont Audibert rive Nord vers le sud;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;168
+2011;1003;Pont Audibert rive Nord vers le sud;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;60
+2011;1003;Pont Audibert rive Nord vers le sud;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;146
+2011;1003;Pont Audibert rive Nord vers l'ouest;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;8
+2010;1003;Pont Audibert rive Nord vers le nord;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;29
+2010;1003;Pont Audibert rive Nord vers le nord;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;66
+2010;1003;Pont Audibert rive Nord vers le sud;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;160
+2010;1003;Pont Audibert rive Nord vers l'est;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;8
+2009;1003;Pont Audibert rive Nord vers le sud;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;41
+2009;1003;Pont Audibert rive Nord vers l'est;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;8
+2009;1003;Pont Audibert rive Nord vers l'ouest;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;2
+2009;1003;Pont Audibert rive Nord vers l'ouest;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;4
+2008;1003;Pont Audibert rive Nord vers le nord;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;36
+2008;1003;Pont Audibert rive Nord vers le sud;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;134
+2008;1003;Pont Audibert rive Nord vers l'ouest;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;
+2006;1003;Pont Audibert rive Nord vers le sud;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;30
+2006;1003;Pont Audibert rive Nord vers le sud;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;38
+2005;1003;Pont Audibert rive Nord vers le sud;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;42
+2005;1003;Pont Audibert rive Nord vers l'est;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;3
+2003;1003;Pont Audibert rive Nord vers l'ouest;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;3
+2003;1003;Pont Audibert rive Nord vers l'ouest;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;6
+2002;1003;Pont Audibert rive Nord vers le nord;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;9
+2001;1003;Pont Audibert rive Nord vers le nord;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;20
+2001;1003;Pont Audibert rive Nord vers l'ouest;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;2
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;537
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;344
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;12
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;20
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;368
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;31
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;22
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;27
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;7
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;29
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;118
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;310
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;28
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;5
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;93
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;129
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;38
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;173
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;14
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;69
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;73
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;137
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;15
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;5
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;10
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;181
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;10
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;70
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;138
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;142
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;84
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;30
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;109
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;55
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;0
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;10
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;5
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;85
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;88
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;133
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;7
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;6
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;52
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;62
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;102
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;40
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;22
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;34
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;6
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;6
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;81
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;136
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;91
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;7
+2020;1000;Quai de la Fosse vers l'ouest;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;121
+2020;1001;Bd Kennedy devant le Chateau vers l'ouest;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;243
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;56
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;12
+2020;1003;Pont Audibert rive Nord vers le sud;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;180
+2020;1003;Pont Audibert rive Nord vers le sud;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;93
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;223
+2015;1000;Quai de la Fosse vers l'est;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;166
+2015;1000;Quai de la Fosse vers l'ouest;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;218
+2013;1000;Quai de la Fosse vers l'est;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;105
+2012;1000;Quai de la Fosse vers l'est;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;117
+2012;1000;Quai de la Fosse vers l'est;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;92
+2010;1000;Quai de la Fosse vers l'est;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;59
+2008;1000;Quai de la Fosse vers l'est;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;80
+2008;1000;Quai de la Fosse vers l'ouest;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;110
+2007;1000;Quai de la Fosse vers l'ouest;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;48
+2006;1000;Quai de la Fosse vers l'est;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;34
+2006;1000;Quai de la Fosse vers l'ouest;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;39
+2005;1000;Quai de la Fosse vers l'est;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;60
+2005;1000;Quai de la Fosse vers l'ouest;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;41
+2005;1000;Quai de la Fosse vers l'ouest;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;88
+2004;1000;Quai de la Fosse vers l'ouest;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;41
+2003;1000;Quai de la Fosse vers l'ouest;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;89
+2001;1000;Quai de la Fosse vers l'est;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;35
+2001;1000;Quai de la Fosse vers l'ouest;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;17
+2000;1000;Quai de la Fosse vers l'est;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;46
+1998;1000;Quai de la Fosse vers l'est;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;48
+1998;1000;Quai de la Fosse vers l'ouest;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;7
+1998;1000;Quai de la Fosse vers l'ouest;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;47
+2018;1001;Bd Kennedy devant le Chateau vers l'ouest;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;104
+2017;1001;Bd Kennedy devant le Chateau vers l'ouest;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;97
+2014;1001;Bd Kennedy devant le Chateau vers l'ouest;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;162
+2013;1001;Bd Kennedy devant le Chateau vers l'ouest;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;70
+2012;1001;Bd Kennedy devant le Chateau vers l'est;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;42
+2011;1001;Bd Kennedy devant le Chateau vers l'ouest;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;74
+2010;1001;Bd Kennedy devant le Chateau vers l'est;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;122
+2009;1001;Bd Kennedy devant le Chateau vers l'est;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;38
+2009;1001;Bd Kennedy devant le Chateau vers l'ouest;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;85
+2009;1001;Bd Kennedy devant le Chateau vers l'ouest;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;84
+2008;1001;Bd Kennedy devant le Chateau vers l'est;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;61
+2007;1001;Bd Kennedy devant le Chateau vers l'est;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;75
+2007;1001;Bd Kennedy devant le Chateau vers l'ouest;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;44
+2004;1001;Bd Kennedy devant le Chateau vers l'est;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;35
+2004;1001;Bd Kennedy devant le Chateau vers l'ouest;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;45
+2002;1001;Bd Kennedy devant le Chateau vers l'ouest;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;41
+1999;1001;Bd Kennedy devant le Chateau vers l'est;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;49
+1998;1001;Bd Kennedy devant le Chateau vers l'est;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;16
+1998;1001;Bd Kennedy devant le Chateau venant du nord;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;
+1998;1001;Bd Kennedy devant le Chateau venant du nord;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;36
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;36
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;90
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;26
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;25
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;42
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;83
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;16
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;15
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;67
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;13
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;24
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;50
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;9
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;31
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;59
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;62
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;38
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;25
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;21
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;12
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;41
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;23
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;34
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;21
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;7
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;30
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;36
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;35
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;31
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;9
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;15
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;40
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;24
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;9
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;2
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;8
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;8
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;6
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;1
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;8
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;27
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;34
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;5
+2019;1003;Pont Audibert rive Nord vers le sud;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;117
+2019;1003;Pont Audibert rive Nord vers l'est;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;55
+2018;1003;Pont Audibert rive Nord vers le nord;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;105
+2018;1003;Pont Audibert rive Nord vers le sud;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;375
+2018;1003;Pont Audibert rive Nord vers l'est;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;65
+2018;1003;Pont Audibert rive Nord vers l'ouest;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;71
+2017;1003;Pont Audibert rive Nord vers l'est;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;33
+2017;1003;Pont Audibert rive Nord vers l'est;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;54
+2016;1003;Pont Audibert rive Nord vers l'est;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;65
+2016;1003;Pont Audibert rive Nord vers l'ouest;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;48
+2015;1003;Pont Audibert rive Nord vers le sud;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;67
+2014;1003;Pont Audibert rive Nord vers le nord;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;68
+2014;1003;Pont Audibert rive Nord vers l'ouest;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;30
+2013;1003;Pont Audibert rive Nord vers le nord;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;80
+2012;1003;Pont Audibert rive Nord vers l'est;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;15
+2012;1003;Pont Audibert rive Nord vers l'est;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;27
+2012;1003;Pont Audibert rive Nord vers l'ouest;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;14
+2011;1003;Pont Audibert rive Nord vers l'ouest;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;11
+2010;1003;Pont Audibert rive Nord vers le sud;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;101
+2010;1003;Pont Audibert rive Nord vers l'est;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;11
+2009;1003;Pont Audibert rive Nord vers le nord;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;50
+2009;1003;Pont Audibert rive Nord vers l'ouest;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;4
+2009;1003;Pont Audibert rive Nord vers l'ouest;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;3
+2008;1003;Pont Audibert rive Nord vers le nord;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;80
+2007;1003;Pont Audibert rive Nord vers l'est;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;
+2006;1003;Pont Audibert rive Nord vers le nord;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;52
+2006;1003;Pont Audibert rive Nord vers l'est;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;2
+2005;1003;Pont Audibert rive Nord vers le nord;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;33
+2005;1003;Pont Audibert rive Nord vers le sud;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;32
+2005;1003;Pont Audibert rive Nord vers l'est;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;2
+2004;1003;Pont Audibert rive Nord vers le nord;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;30
+2003;1003;Pont Audibert rive Nord vers le sud;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;30
+2003;1003;Pont Audibert rive Nord vers l'est;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;7
+2002;1003;Pont Audibert rive Nord vers le nord;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;10
+2002;1003;Pont Audibert rive Nord vers le sud;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;12
+2000;1003;Pont Audibert rive Nord vers le sud;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;27
+2000;1003;Pont Audibert rive Nord vers l'ouest;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;10
+1999;1003;Pont Audibert rive Nord vers le nord;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;35
+1999;1003;Pont Audibert rive Nord vers le sud;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;39
+1999;1003;Pont Audibert rive Nord vers l'est;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;6
+1999;1003;Pont Audibert rive Nord vers l'ouest;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;2
+1998;1003;Pont Audibert rive Nord;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;60
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;25
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;9
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;20
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;460
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;139
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;19
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;21
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;304
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;170
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;3
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;18
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;131
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;69
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;73
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;286
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;5
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;9
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;187
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;74
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;172
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;15
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;68
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;26
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;13
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;114
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;52
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;0
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;120
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;74
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;90
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;112
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;65
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;5
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;4
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;5
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;2
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;153
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;95
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;7
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;15
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;57
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;94
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;1
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;108
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;95
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;3
+2020;1000;Quai de la Fosse vers l'ouest;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;359
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;17
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;34
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;65
+2020;1003;Pont Audibert rive Nord vers le nord;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;77
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;139
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;73
+2018;1000;Quai de la Fosse vers l'est;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;104
+2018;1000;Quai de la Fosse vers l'est;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;239
+2018;1000;Quai de la Fosse vers l'ouest;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;360
+2017;1000;Quai de la Fosse vers l'est;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;197
+2017;1000;Quai de la Fosse vers l'ouest;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;332
+2016;1000;Quai de la Fosse vers l'est;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;225
+2015;1000;Quai de la Fosse vers l'ouest;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;199
+2014;1000;Quai de la Fosse vers l'est;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;136
+2014;1000;Quai de la Fosse vers l'ouest;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;229
+2013;1000;Quai de la Fosse vers l'ouest;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;176
+2012;1000;Quai de la Fosse vers l'est;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;65
+2012;1000;Quai de la Fosse vers l'ouest;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;160
+2007;1000;Quai de la Fosse vers l'ouest;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;111
+2007;1000;Quai de la Fosse vers l'ouest;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;42
+2005;1000;Quai de la Fosse vers l'est;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;68
+2005;1000;Quai de la Fosse vers l'ouest;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;69
+2002;1000;Quai de la Fosse vers l'est;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;45
+2002;1000;Quai de la Fosse vers l'est;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;38
+2002;1000;Quai de la Fosse vers l'est;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;23
+2001;1000;Quai de la Fosse vers l'est;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;23
+2000;1000;Quai de la Fosse vers l'ouest;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;21
+1999;1000;Quai de la Fosse vers l'est;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;30
+1999;1000;Quai de la Fosse vers l'ouest;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;72
+2019;1001;Bd Kennedy devant le Chateau vers l'est;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;260
+2018;1001;Bd Kennedy devant le Chateau vers l'ouest;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;97
+2014;1001;Bd Kennedy devant le Chateau vers l'ouest;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;116
+2013;1001;Bd Kennedy devant le Chateau vers l'ouest;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;40
+2011;1001;Bd Kennedy devant le Chateau vers l'est;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;170
+2011;1001;Bd Kennedy devant le Chateau vers l'est;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;113
+2009;1001;Bd Kennedy devant le Chateau vers l'est;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;107
+2006;1001;Bd Kennedy devant le Chateau vers l'est;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;37
+2005;1001;Bd Kennedy devant le Chateau vers l'est;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;44
+2004;1001;Bd Kennedy devant le Chateau vers l'est;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;59
+2004;1001;Bd Kennedy devant le Chateau vers l'ouest;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;44
+2002;1001;Bd Kennedy devant le Chateau vers l'ouest;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;47
+2002;1001;Bd Kennedy devant le Chateau vers l'ouest;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;41
+2000;1001;Bd Kennedy devant le Chateau vers l'est;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;14
+2000;1001;Bd Kennedy devant le Chateau vers l'ouest;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;30
+1999;1001;Bd Kennedy devant le Chateau vers l'est;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;69
+1999;1001;Bd Kennedy devant le Chateau vers l'est;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;26
+1999;1001;Bd Kennedy devant le Chateau venant du nord;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;10
+1998;1001;Bd Kennedy devant le Chateau vers l'est;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;23
+1998;1001;Bd Kennedy devant le Chateau vers l'ouest;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;33
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;30
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;20
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;80
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;12
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;72
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;47
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;27
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;12
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;18
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;18
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;62
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;17
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;20
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;59
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;34
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;51
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;10
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;24
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;9
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;18
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;10
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;4
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;10
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;53
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;26
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;34
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;9
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;31
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;20
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;12
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;8
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;26
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;40
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;33
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;12
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;7
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;10
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;13
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;8
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;14
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;21
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;60
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;12
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;8
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;25
+2019;1003;Pont Audibert rive Nord vers le sud;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;152
+2018;1003;Pont Audibert rive Nord vers le sud;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;138
+2015;1003;Pont Audibert rive Nord vers le sud;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;85
+2015;1003;Pont Audibert rive Nord vers l'ouest;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;73
+2015;1003;Pont Audibert rive Nord vers l'ouest;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;22
+2014;1003;Pont Audibert rive Nord vers le nord;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;59
+2014;1003;Pont Audibert rive Nord vers le nord;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;183
+2014;1003;Pont Audibert rive Nord vers l'est;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;17
+2013;1003;Pont Audibert rive Nord vers le nord;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;57
+2013;1003;Pont Audibert rive Nord vers l'est;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;19
+2012;1003;Pont Audibert rive Nord vers le nord;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;39
+2011;1003;Pont Audibert rive Nord vers le nord;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;140
+2010;1003;Pont Audibert rive Nord vers l'ouest;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;9
+2009;1003;Pont Audibert rive Nord vers l'est;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;6
+2008;1003;Pont Audibert rive Nord vers l'ouest;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;
+2007;1003;Pont Audibert rive Nord vers le sud;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;119
+2007;1003;Pont Audibert rive Nord vers l'ouest;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;
+2006;1003;Pont Audibert rive Nord vers le nord;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;45
+2006;1003;Pont Audibert rive Nord vers l'ouest;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;6
+2006;1003;Pont Audibert rive Nord vers l'ouest;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;9
+2005;1003;Pont Audibert rive Nord vers le nord;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;56
+2005;1003;Pont Audibert rive Nord vers le nord;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;41
+2005;1003;Pont Audibert rive Nord vers le nord;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;68
+2004;1003;Pont Audibert rive Nord vers le nord;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;35
+2004;1003;Pont Audibert rive Nord vers l'est;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;10
+2004;1003;Pont Audibert rive Nord vers l'ouest;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;9
+2001;1003;Pont Audibert rive Nord vers le nord;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;21
+2001;1003;Pont Audibert rive Nord vers le sud;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;21
+2001;1003;Pont Audibert rive Nord vers le sud;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;22
+2000;1003;Pont Audibert rive Nord vers le nord;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;14
+2000;1003;Pont Audibert rive Nord vers le nord;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;35
+2000;1003;Pont Audibert rive Nord vers le sud;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;23
+2000;1003;Pont Audibert rive Nord vers le sud;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;63
+2000;1003;Pont Audibert rive Nord vers l'ouest;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;5
+1999;1003;Pont Audibert rive Nord vers le nord;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;53
+1999;1003;Pont Audibert rive Nord vers le nord;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;16
+1999;1003;Pont Audibert rive Nord vers l'ouest;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;3
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;264
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;171
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;140
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;33
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;25
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;21
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;357
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;393
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;162
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;297
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;13
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;157
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;11
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;203
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;60
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;60
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;15
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;205
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;175
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;4
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;1
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;33
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;9
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;49
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;0
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;0
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;0
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;8
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;66
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;13
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;74
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;5
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;3
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;43
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;107
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;5
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;24
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;6
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;5
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;95
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;11
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;33
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;1
+2020;1000;Quai de la Fosse vers l'est;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;324
+2020;1001;Bd Kennedy devant le Chateau vers l'ouest;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;93
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;70
+2020;1003;Pont Audibert rive Nord vers le nord;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;348
+2020;1003;Pont Audibert rive Nord vers l'est;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;75
+2020;1003;Pont Audibert rive Nord vers l'ouest;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;52
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;300
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;67
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;36
+2019;1000;Quai de la Fosse vers l'est;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;148
+2019;1000;Quai de la Fosse vers l'ouest;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;80
+2018;1000;Quai de la Fosse vers l'ouest;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;83
+2017;1000;Quai de la Fosse vers l'est;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;227
+2017;1000;Quai de la Fosse vers l'ouest;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;106
+2016;1000;Quai de la Fosse vers l'ouest;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;83
+2016;1000;Quai de la Fosse vers l'ouest;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;313
+2014;1000;Quai de la Fosse vers l'est;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;73
+2013;1000;Quai de la Fosse vers l'ouest;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;46
+2012;1000;Quai de la Fosse vers l'ouest;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;66
+2011;1000;Quai de la Fosse vers l'est;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;90
+2010;1000;Quai de la Fosse vers l'est;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;70
+2009;1000;Quai de la Fosse vers l'est;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;66
+2009;1000;Quai de la Fosse vers l'ouest;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;124
+2008;1000;Quai de la Fosse vers l'est;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;61
+2008;1000;Quai de la Fosse vers l'ouest;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;115
+2007;1000;Quai de la Fosse vers l'ouest;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;70
+2006;1000;Quai de la Fosse vers l'ouest;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;56
+2003;1000;Quai de la Fosse vers l'est;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;41
+2000;1000;Quai de la Fosse vers l'est;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;34
+2000;1000;Quai de la Fosse vers l'est;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;25
+2000;1000;Quai de la Fosse vers l'ouest;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;42
+1999;1000;Quai de la Fosse vers l'ouest;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;36
+1999;1000;Quai de la Fosse vers l'ouest;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;43
+1998;1000;Quai de la Fosse vers l'ouest;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;35
+2019;1001;Bd Kennedy devant le Chateau vers l'est;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;66
+2019;1001;Bd Kennedy devant le Chateau vers l'ouest;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;111
+2018;1001;Bd Kennedy devant le Chateau vers l'ouest;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;204
+2017;1001;Bd Kennedy devant le Chateau vers l'est;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;219
+2015;1001;Bd Kennedy devant le Chateau vers l'est;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;98
+2015;1001;Bd Kennedy devant le Chateau vers l'ouest;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;45
+2014;1001;Bd Kennedy devant le Chateau vers l'est;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;146
+2013;1001;Bd Kennedy devant le Chateau vers l'est;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;44
+2013;1001;Bd Kennedy devant le Chateau vers l'ouest;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;108
+2012;1001;Bd Kennedy devant le Chateau vers l'ouest;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;58
+2012;1001;Bd Kennedy devant le Chateau vers l'ouest;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;57
+2010;1001;Bd Kennedy devant le Chateau vers l'ouest;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;72
+2009;1001;Bd Kennedy devant le Chateau vers l'est;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;156
+2008;1001;Bd Kennedy devant le Chateau vers l'est;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;129
+2007;1001;Bd Kennedy devant le Chateau vers l'ouest;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;75
+2006;1001;Bd Kennedy devant le Chateau vers l'est;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;60
+2002;1001;Bd Kennedy devant le Chateau vers l'est;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;50
+2002;1001;Bd Kennedy devant le Chateau vers l'est;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;30
+2002;1001;Bd Kennedy devant le Chateau vers l'est;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;27
+2001;1001;Bd Kennedy devant le Chateau vers l'est;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;11
+2001;1001;Bd Kennedy devant le Chateau vers l'est;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;20
+2001;1001;Bd Kennedy devant le Chateau vers l'ouest;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;22
+2001;1001;Bd Kennedy devant le Chateau venant du nord;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;
+2000;1001;Bd Kennedy devant le Chateau vers l'est;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;16
+1999;1001;Bd Kennedy devant le Chateau vers l'est;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;31
+1999;1001;Bd Kennedy devant le Chateau vers l'ouest;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;39
+1998;1001;Bd Kennedy devant le Chateau vers l'est;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;43
+1998;1001;Bd Kennedy devant le Chateau venant du nord;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;
+1998;1001;Bd Kennedy devant le Chateau venant du nord;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;20
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;7
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;54
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;18
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;8
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;23
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;32
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;50
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;52
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;19
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;4
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;8
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;19
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;7
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;29
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;8
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;16
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;17
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;18
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;7
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;31
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;21
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;5
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;5
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;11
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;1
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;5
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;4
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;24
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;20
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;19
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;11
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;42
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;27
+2019;1003;Pont Audibert rive Nord vers le nord;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;163
+2019;1003;Pont Audibert rive Nord vers le sud;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;228
+2019;1003;Pont Audibert rive Nord vers l'est;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;83
+2019;1003;Pont Audibert rive Nord vers l'ouest;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;79
+2018;1003;Pont Audibert rive Nord vers le nord;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;106
+2018;1003;Pont Audibert rive Nord vers l'est;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;37
+2018;1003;Pont Audibert rive Nord vers l'est;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;71
+2017;1003;Pont Audibert rive Nord vers l'ouest;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;53
+2016;1003;Pont Audibert rive Nord vers le sud;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;280
+2016;1003;Pont Audibert rive Nord vers l'ouest;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;23
+2015;1003;Pont Audibert rive Nord vers le nord;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;48
+2015;1003;Pont Audibert rive Nord vers le sud;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;231
+2014;1003;Pont Audibert rive Nord vers l'est;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;25
+2013;1003;Pont Audibert rive Nord vers le sud;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;200
+2013;1003;Pont Audibert rive Nord vers le sud;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;103
+2013;1003;Pont Audibert rive Nord vers l'est;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;13
+2012;1003;Pont Audibert rive Nord vers le nord;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;46
+2012;1003;Pont Audibert rive Nord vers le sud;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;59
+2012;1003;Pont Audibert rive Nord vers le sud;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;147
+2012;1003;Pont Audibert rive Nord vers l'est;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;6
+2012;1003;Pont Audibert rive Nord vers l'ouest;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;12
+2012;1003;Pont Audibert rive Nord vers l'ouest;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;20
+2012;1003;Pont Audibert rive Nord vers l'ouest;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;35
+2011;1003;Pont Audibert rive Nord vers le nord;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;150
+2011;1003;Pont Audibert rive Nord vers l'ouest;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;9
+2010;1003;Pont Audibert rive Nord vers le nord;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;47
+2010;1003;Pont Audibert rive Nord vers l'est;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;23
+2010;1003;Pont Audibert rive Nord vers l'ouest;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;6
+2010;1003;Pont Audibert rive Nord vers l'ouest;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;14
+2008;1003;Pont Audibert rive Nord vers le nord;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;26
+2008;1003;Pont Audibert rive Nord vers le sud;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;63
+2007;1003;Pont Audibert rive Nord vers le nord;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;50
+2007;1003;Pont Audibert rive Nord vers le nord;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;71
+2007;1003;Pont Audibert rive Nord vers le sud;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;40
+2007;1003;Pont Audibert rive Nord vers l'est;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;
+2007;1003;Pont Audibert rive Nord vers l'ouest;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;
+2007;1003;Pont Audibert rive Nord vers l'ouest;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;
+2004;1003;Pont Audibert rive Nord vers le sud;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;20
+2004;1003;Pont Audibert rive Nord vers l'est;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;22
+2003;1003;Pont Audibert rive Nord vers le nord;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;25
+2003;1003;Pont Audibert rive Nord vers le nord;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;39
+2002;1003;Pont Audibert rive Nord vers l'est;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;9
+2002;1003;Pont Audibert rive Nord vers l'ouest;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;5
+2002;1003;Pont Audibert rive Nord vers l'ouest;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;13
+2001;1003;Pont Audibert rive Nord vers le nord;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;20
+2001;1003;Pont Audibert rive Nord vers le sud;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;21
+2001;1003;Pont Audibert rive Nord vers l'ouest;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;1
+2000;1003;Pont Audibert rive Nord vers le nord;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;42
+1999;1003;Pont Audibert rive Nord vers l'est;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;1
+1998;1003;Pont Audibert rive Nord;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;35
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;389
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;20
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;165
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;282
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;200
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;25
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;327
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;17
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;95
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;314
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;256
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;9
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;158
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;19
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;76
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;93
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;184
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;14
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;16
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;8
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;10
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;35
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;3
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;51
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;48
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;73
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;30
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;18
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;9
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;14
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;55
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;86
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;11
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;143
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;17
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;82
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;11
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;37
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;29
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;170
+2020;1000;Quai de la Fosse vers l'est;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;132
+2020;1000;Quai de la Fosse vers l'est;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;63
+2020;1000;Quai de la Fosse vers l'ouest;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;429
+2020;1000;Quai de la Fosse vers l'ouest;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;94
+2020;1001;Bd Kennedy devant le Chateau vers l'est;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;107
+2020;1001;Bd Kennedy devant le Chateau vers l'est;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;112
+2020;1001;Bd Kennedy devant le Chateau vers l'est;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;233
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;13
+2019;1000;Quai de la Fosse vers l'ouest;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;238
+2018;1000;Quai de la Fosse vers l'ouest;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;101
+2016;1000;Quai de la Fosse vers l'est;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;101
+2016;1000;Quai de la Fosse vers l'est;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;245
+2016;1000;Quai de la Fosse vers l'est;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;118
+2014;1000;Quai de la Fosse vers l'ouest;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;248
+2013;1000;Quai de la Fosse vers l'est;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;153
+2011;1000;Quai de la Fosse vers l'ouest;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;48
+2010;1000;Quai de la Fosse vers l'est;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;93
+2009;1000;Quai de la Fosse vers l'est;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;42
+2007;1000;Quai de la Fosse vers l'est;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;51
+2007;1000;Quai de la Fosse vers l'est;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;39
+2006;1000;Quai de la Fosse vers l'est;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;53
+2006;1000;Quai de la Fosse vers l'est;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;36
+2006;1000;Quai de la Fosse vers l'ouest;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;69
+2005;1000;Quai de la Fosse vers l'est;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;53
+2004;1000;Quai de la Fosse vers l'est;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;54
+2003;1000;Quai de la Fosse vers l'est;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;29
+2002;1000;Quai de la Fosse vers l'ouest;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;37
+2001;1000;Quai de la Fosse vers l'ouest;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;32
+2001;1000;Quai de la Fosse vers l'ouest;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;44
+1999;1000;Quai de la Fosse vers l'est;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;45
+1999;1000;Quai de la Fosse vers l'ouest;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;32
+1998;1000;Quai de la Fosse vers l'ouest;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;69
+2018;1001;Bd Kennedy devant le Chateau vers l'est;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;92
+2017;1001;Bd Kennedy devant le Chateau vers l'ouest;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;141
+2015;1001;Bd Kennedy devant le Chateau vers l'est;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;125
+2015;1001;Bd Kennedy devant le Chateau vers l'ouest;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;126
+2012;1001;Bd Kennedy devant le Chateau vers l'est;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;188
+2012;1001;Bd Kennedy devant le Chateau vers l'ouest;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;90
+2011;1001;Bd Kennedy devant le Chateau vers l'ouest;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;133
+2009;1001;Bd Kennedy devant le Chateau vers l'ouest;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;27
+2008;1001;Bd Kennedy devant le Chateau vers l'ouest;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;57
+2007;1001;Bd Kennedy devant le Chateau vers l'est;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;75
+2007;1001;Bd Kennedy devant le Chateau vers l'ouest;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;69
+2006;1001;Bd Kennedy devant le Chateau vers l'ouest;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;34
+2006;1001;Bd Kennedy devant le Chateau vers l'ouest;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;41
+2005;1001;Bd Kennedy devant le Chateau vers l'est;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;46
+2005;1001;Bd Kennedy devant le Chateau vers l'ouest;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;35
+2004;1001;Bd Kennedy devant le Chateau vers l'est;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;38
+2004;1001;Bd Kennedy devant le Chateau vers l'ouest;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;42
+2002;1001;Bd Kennedy devant le Chateau vers l'ouest;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;37
+2001;1001;Bd Kennedy devant le Chateau vers l'est;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;24
+2000;1001;Bd Kennedy devant le Chateau venant du nord;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;17
+2000;1001;Bd Kennedy devant le Chateau venant du nord;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;
+1999;1001;Bd Kennedy devant le Chateau vers l'ouest;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;35
+1999;1001;Bd Kennedy devant le Chateau venant du nord;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;11
+1998;1001;Bd Kennedy devant le Chateau vers l'ouest;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;50
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;25
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;50
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;12
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;60
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;35
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;65
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;15
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;51
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;38
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;52
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;47
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;42
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;39
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;12
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;7
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;12
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;27
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;93
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;14
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;15
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;0
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;9
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;7
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;37
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;12
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;12
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;5
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;30
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;6
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;35
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;10
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;45
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;11
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;18
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;31
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;57
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;37
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;20
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;33
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;7
+2018;1003;Pont Audibert rive Nord vers l'ouest;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;14
+2017;1003;Pont Audibert rive Nord vers le sud;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;116
+2017;1003;Pont Audibert rive Nord vers l'est;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;12
+2016;1003;Pont Audibert rive Nord vers le nord;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;90
+2016;1003;Pont Audibert rive Nord vers le nord;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;250
+2015;1003;Pont Audibert rive Nord vers le nord;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;47
+2015;1003;Pont Audibert rive Nord vers le nord;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;187
+2015;1003;Pont Audibert rive Nord vers l'est;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;27
+2015;1003;Pont Audibert rive Nord vers l'est;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;29
+2015;1003;Pont Audibert rive Nord vers l'est;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;24
+2014;1003;Pont Audibert rive Nord vers le nord;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;172
+2014;1003;Pont Audibert rive Nord vers le sud;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;204
+2014;1003;Pont Audibert rive Nord vers l'est;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;37
+2013;1003;Pont Audibert rive Nord vers le nord;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;32
+2011;1003;Pont Audibert rive Nord vers l'est;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;4
+2011;1003;Pont Audibert rive Nord vers l'ouest;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;11
+2010;1003;Pont Audibert rive Nord vers le sud;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;57
+2010;1003;Pont Audibert rive Nord vers l'est;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;5
+2008;1003;Pont Audibert rive Nord vers l'est;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;
+2008;1003;Pont Audibert rive Nord vers l'est;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;
+2008;1003;Pont Audibert rive Nord vers l'ouest;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;
+2007;1003;Pont Audibert rive Nord vers le nord;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;42
+2007;1003;Pont Audibert rive Nord vers le sud;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;47
+2005;1003;Pont Audibert rive Nord vers l'ouest;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;21
+2004;1003;Pont Audibert rive Nord vers le sud;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;33
+2004;1003;Pont Audibert rive Nord vers l'est;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;8
+2004;1003;Pont Audibert rive Nord vers l'ouest;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;8
+2003;1003;Pont Audibert rive Nord vers le sud;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;80
+2003;1003;Pont Audibert rive Nord vers l'est;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;2
+2003;1003;Pont Audibert rive Nord vers l'ouest;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;9
+2002;1003;Pont Audibert rive Nord vers le sud;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;5
+2002;1003;Pont Audibert rive Nord vers l'est;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;2
+2002;1003;Pont Audibert rive Nord vers l'est;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;8
+2001;1003;Pont Audibert rive Nord vers l'est;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;4
+2000;1003;Pont Audibert rive Nord vers l'est;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;2
+2000;1003;Pont Audibert rive Nord vers l'est;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;8
+2000;1003;Pont Audibert rive Nord vers l'ouest;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;7
+1999;1003;Pont Audibert rive Nord vers l'ouest;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;6
+1999;1003;Pont Audibert rive Nord vers l'ouest;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;10
+1998;1003;Pont Audibert rive Nord;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;100
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;158
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;22
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;465
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;148
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;30
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;24
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;170
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;271
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;134
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;116
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;24
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;22
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;13
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;223
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;18
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;193
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;120
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;80
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;120
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;40
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;107
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;9
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;70
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;11
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;32
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;117
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;122
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;130
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;6
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;54
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;4
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;154
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;72
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;107
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;56
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;4
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;2
+2020;1000;Quai de la Fosse vers l'est;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;224
+2020;1001;Bd Kennedy devant le Chateau vers l'est;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;359
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;27
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;19
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;19
+2020;1003;Pont Audibert rive Nord vers le sud;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;352
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;93
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;275
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;269
+2019;1000;Quai de la Fosse vers l'est;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;274
+2017;1000;Quai de la Fosse vers l'est;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;130
+2017;1000;Quai de la Fosse vers l'ouest;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;256
+2016;1000;Quai de la Fosse vers l'ouest;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;306
+2015;1000;Quai de la Fosse vers l'est;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;142
+2013;1000;Quai de la Fosse vers l'est;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;59
+2012;1000;Quai de la Fosse vers l'ouest;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;127
+2012;1000;Quai de la Fosse vers l'ouest;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;59
+2011;1000;Quai de la Fosse vers l'est;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;91
+2011;1000;Quai de la Fosse vers l'ouest;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;175
+2011;1000;Quai de la Fosse vers l'ouest;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;57
+2011;1000;Quai de la Fosse vers l'ouest;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;155
+2008;1000;Quai de la Fosse vers l'ouest;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;46
+2004;1000;Quai de la Fosse vers l'est;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;58
+2004;1000;Quai de la Fosse vers l'est;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;39
+2002;1000;Quai de la Fosse vers l'ouest;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;22
+2000;1000;Quai de la Fosse vers l'ouest;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;35
+1999;1000;Quai de la Fosse vers l'est;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;48
+2018;1001;Bd Kennedy devant le Chateau vers l'ouest;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;180
+2017;1001;Bd Kennedy devant le Chateau vers l'est;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;119
+2017;1001;Bd Kennedy devant le Chateau vers l'est;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;207
+2017;1001;Bd Kennedy devant le Chateau vers l'est;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;107
+2017;1001;Bd Kennedy devant le Chateau vers l'ouest;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;195
+2016;1001;Bd Kennedy devant le Chateau vers l'est;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;100
+2016;1001;Bd Kennedy devant le Chateau vers l'ouest;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;116
+2015;1001;Bd Kennedy devant le Chateau vers l'ouest;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;106
+2014;1001;Bd Kennedy devant le Chateau vers l'est;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;85
+2014;1001;Bd Kennedy devant le Chateau vers l'ouest;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;80
+2013;1001;Bd Kennedy devant le Chateau vers l'ouest;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;85
+2012;1001;Bd Kennedy devant le Chateau vers l'est;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;64
+2011;1001;Bd Kennedy devant le Chateau vers l'est;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;50
+2010;1001;Bd Kennedy devant le Chateau vers l'ouest;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;62
+2008;1001;Bd Kennedy devant le Chateau vers l'est;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;81
+2008;1001;Bd Kennedy devant le Chateau vers l'est;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;165
+2007;1001;Bd Kennedy devant le Chateau vers l'est;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;33
+2007;1001;Bd Kennedy devant le Chateau vers l'ouest;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;52
+2005;1001;Bd Kennedy devant le Chateau vers l'ouest;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;64
+2004;1001;Bd Kennedy devant le Chateau vers l'est;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;65
+2003;1001;Bd Kennedy devant le Chateau vers l'ouest;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;24
+2003;1001;Bd Kennedy devant le Chateau vers l'ouest;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;46
+2001;1001;Bd Kennedy devant le Chateau vers l'ouest;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;22
+2001;1001;Bd Kennedy devant le Chateau vers l'ouest;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;29
+2000;1001;Bd Kennedy devant le Chateau vers l'est;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;24
+2000;1001;Bd Kennedy devant le Chateau venant du nord;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;7
+2000;1001;Bd Kennedy devant le Chateau venant du nord;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;15
+1999;1001;Bd Kennedy devant le Chateau venant du nord;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;11
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;19
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;62
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;25
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;89
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;13
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;63
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;35
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;32
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;37
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;74
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;54
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;14
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;35
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;13
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;56
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;17
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;27
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;29
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;9
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;14
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;34
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;4
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;26
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;28
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;59
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;9
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;23
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;22
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;14
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;11
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;3
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;6
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;0
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;24
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;19
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;27
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;23
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;9
+2019;1003;Pont Audibert rive Nord vers l'ouest;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;19
+2018;1003;Pont Audibert rive Nord vers le sud;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;389
+2018;1003;Pont Audibert rive Nord vers l'ouest;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;72
+2018;1003;Pont Audibert rive Nord vers l'ouest;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;20
+2017;1003;Pont Audibert rive Nord vers le nord;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;159
+2017;1003;Pont Audibert rive Nord vers le nord;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;241
+2017;1003;Pont Audibert rive Nord vers l'ouest;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;22
+2015;1003;Pont Audibert rive Nord vers l'ouest;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;12
+2014;1003;Pont Audibert rive Nord vers le sud;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;89
+2014;1003;Pont Audibert rive Nord vers le sud;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;102
+2014;1003;Pont Audibert rive Nord vers le sud;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;231
+2014;1003;Pont Audibert rive Nord vers l'ouest;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;23
+2014;1003;Pont Audibert rive Nord vers l'ouest;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;70
+2013;1003;Pont Audibert rive Nord vers le nord;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;157
+2013;1003;Pont Audibert rive Nord vers l'est;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;44
+2013;1003;Pont Audibert rive Nord vers l'ouest;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;34
+2013;1003;Pont Audibert rive Nord vers l'ouest;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;40
+2012;1003;Pont Audibert rive Nord vers le nord;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;145
+2011;1003;Pont Audibert rive Nord vers le nord;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;44
+2011;1003;Pont Audibert rive Nord vers le sud;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;140
+2010;1003;Pont Audibert rive Nord vers le sud;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;29
+2009;1003;Pont Audibert rive Nord vers le nord;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;100
+2009;1003;Pont Audibert rive Nord vers le sud;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;145
+2008;1003;Pont Audibert rive Nord vers l'est;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;
+2007;1003;Pont Audibert rive Nord vers le nord;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;50
+2007;1003;Pont Audibert rive Nord vers l'est;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;
+2006;1003;Pont Audibert rive Nord vers l'est;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;1
+2004;1003;Pont Audibert rive Nord vers le nord;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;55
+2004;1003;Pont Audibert rive Nord vers le sud;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;70
+2004;1003;Pont Audibert rive Nord vers l'est;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;12
+2003;1003;Pont Audibert rive Nord vers le sud;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;71
+2003;1003;Pont Audibert rive Nord vers l'est;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;6
+2003;1003;Pont Audibert rive Nord vers l'ouest;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;5
+2002;1003;Pont Audibert rive Nord vers le nord;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;6
+2001;1003;Pont Audibert rive Nord vers le sud;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;23
+2001;1003;Pont Audibert rive Nord vers l'est;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;3
+2000;1003;Pont Audibert rive Nord vers le nord;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;60
+2000;1003;Pont Audibert rive Nord vers le sud;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;44
+1999;1003;Pont Audibert rive Nord vers le sud;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;56
+1999;1003;Pont Audibert rive Nord vers le sud;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;12
+1999;1003;Pont Audibert rive Nord vers l'est;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;9
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;128
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;11
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;20
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;7
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;26
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;14
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;259
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;264
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;11
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;50
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;9
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;70
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;21
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;14
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;169
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;11
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;79
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;208
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;18
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;12
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;107
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;41
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;87
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;78
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;116
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;54
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;0
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;0
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;14
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;107
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;14
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;7
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;71
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;67
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;26
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;124
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;2
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;4
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;5
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;49
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;35
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;6
+2020;1001;Bd Kennedy devant le Chateau vers l'ouest;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;76
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;15
+2020;1003;Pont Audibert rive Nord vers le nord;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;121
+2020;1003;Pont Audibert rive Nord vers le sud;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;447
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;291
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;48
+2019;1000;Quai de la Fosse vers l'ouest;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;370
+2017;1000;Quai de la Fosse vers l'est;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;182
+2014;1000;Quai de la Fosse vers l'ouest;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;86
+2013;1000;Quai de la Fosse vers l'est;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;51
+2013;1000;Quai de la Fosse vers l'ouest;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;234
+2012;1000;Quai de la Fosse vers l'est;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;41
+2011;1000;Quai de la Fosse vers l'est;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;50
+2011;1000;Quai de la Fosse vers l'est;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;56
+2010;1000;Quai de la Fosse vers l'ouest;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;124
+2009;1000;Quai de la Fosse vers l'est;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;75
+2009;1000;Quai de la Fosse vers l'ouest;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;90
+2007;1000;Quai de la Fosse vers l'est;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;73
+2007;1000;Quai de la Fosse vers l'est;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;51
+2004;1000;Quai de la Fosse vers l'ouest;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;104
+2004;1000;Quai de la Fosse vers l'ouest;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;43
+2003;1000;Quai de la Fosse vers l'est;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;28
+2003;1000;Quai de la Fosse vers l'ouest;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;24
+2003;1000;Quai de la Fosse vers l'ouest;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;77
+2002;1000;Quai de la Fosse vers l'ouest;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;32
+2000;1000;Quai de la Fosse vers l'ouest;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;73
+1999;1000;Quai de la Fosse vers l'est;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;62
+1998;1000;Quai de la Fosse vers l'est;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;16
+2019;1001;Bd Kennedy devant le Chateau vers l'ouest;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;149
+2017;1001;Bd Kennedy devant le Chateau vers l'ouest;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;163
+2016;1001;Bd Kennedy devant le Chateau vers l'ouest;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;87
+2016;1001;Bd Kennedy devant le Chateau vers l'ouest;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;217
+2016;1001;Bd Kennedy devant le Chateau vers l'ouest;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;161
+2014;1001;Bd Kennedy devant le Chateau vers l'est;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;62
+2013;1001;Bd Kennedy devant le Chateau vers l'est;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;68
+2012;1001;Bd Kennedy devant le Chateau vers l'ouest;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;120
+2010;1001;Bd Kennedy devant le Chateau vers l'est;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;112
+2010;1001;Bd Kennedy devant le Chateau vers l'est;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;41
+2010;1001;Bd Kennedy devant le Chateau vers l'ouest;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;107
+2005;1001;Bd Kennedy devant le Chateau vers l'ouest;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;58
+2004;1001;Bd Kennedy devant le Chateau vers l'ouest;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;36
+2003;1001;Bd Kennedy devant le Chateau vers l'est;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;27
+2003;1001;Bd Kennedy devant le Chateau vers l'est;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;16
+2002;1001;Bd Kennedy devant le Chateau vers l'est;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;37
+2001;1001;Bd Kennedy devant le Chateau vers l'ouest;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;11
+2000;1001;Bd Kennedy devant le Chateau vers l'est;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;52
+2000;1001;Bd Kennedy devant le Chateau vers l'ouest;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;52
+1999;1001;Bd Kennedy devant le Chateau vers l'ouest;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;56
+1999;1001;Bd Kennedy devant le Chateau venant du nord;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;14
+1998;1001;Bd Kennedy devant le Chateau vers l'ouest;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;22
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;86
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;72
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;53
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;14
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;25
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;19
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;54
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;73
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;57
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;35
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;15
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;16
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;23
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;62
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;13
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;41
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;18
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;10
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;20
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;83
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;94
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;14
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;26
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;35
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;10
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;23
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;48
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;24
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;23
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;24
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;29
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;42
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;9
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;27
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;40
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;25
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;16
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;15
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;20
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;17
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;10
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;5
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;15
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;13
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;13
+2001;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;5
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;29
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;24
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;16
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;26
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;14
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;9
+1998;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;37
+2019;1003;Pont Audibert rive Nord vers le nord;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;116
+2019;1003;Pont Audibert rive Nord vers le nord;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;77
+2018;1003;Pont Audibert rive Nord vers le nord;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;292
+2018;1003;Pont Audibert rive Nord vers le nord;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;299
+2018;1003;Pont Audibert rive Nord vers l'est;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;42
+2017;1003;Pont Audibert rive Nord vers le nord;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;213
+2017;1003;Pont Audibert rive Nord vers le sud;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;191
+2016;1003;Pont Audibert rive Nord vers le nord;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;79
+2016;1003;Pont Audibert rive Nord vers le nord;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;199
+2016;1003;Pont Audibert rive Nord vers le sud;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;306
+2016;1003;Pont Audibert rive Nord vers l'est;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;49
+2016;1003;Pont Audibert rive Nord vers l'est;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;48
+2016;1003;Pont Audibert rive Nord vers l'ouest;2016-09-29T17:30:00+02:00;2016-09-29;17:30:00;jeudi;36
+2013;1003;Pont Audibert rive Nord vers le sud;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;68
+2013;1003;Pont Audibert rive Nord vers le sud;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;53
+2013;1003;Pont Audibert rive Nord vers l'ouest;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;19
+2012;1003;Pont Audibert rive Nord vers le nord;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;99
+2012;1003;Pont Audibert rive Nord vers le sud;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;48
+2012;1003;Pont Audibert rive Nord vers l'est;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;25
+2011;1003;Pont Audibert rive Nord vers le nord;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;49
+2011;1003;Pont Audibert rive Nord vers l'est;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;27
+2011;1003;Pont Audibert rive Nord vers l'est;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;20
+2010;1003;Pont Audibert rive Nord vers le nord;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;45
+2010;1003;Pont Audibert rive Nord vers l'ouest;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;28
+2009;1003;Pont Audibert rive Nord vers le nord;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;141
+2009;1003;Pont Audibert rive Nord vers le sud;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;128
+2009;1003;Pont Audibert rive Nord vers le sud;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;61
+2009;1003;Pont Audibert rive Nord vers l'est;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;3
+2009;1003;Pont Audibert rive Nord vers l'est;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;1
+2008;1003;Pont Audibert rive Nord vers le nord;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;85
+2008;1003;Pont Audibert rive Nord vers le sud;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;121
+2008;1003;Pont Audibert rive Nord vers l'est;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;
+2008;1003;Pont Audibert rive Nord vers l'ouest;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;
+2007;1003;Pont Audibert rive Nord vers l'est;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;
+2006;1003;Pont Audibert rive Nord vers le nord;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;27
+2006;1003;Pont Audibert rive Nord vers l'est;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;0
+2006;1003;Pont Audibert rive Nord vers l'ouest;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;12
+2006;1003;Pont Audibert rive Nord vers l'ouest;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;4
+2005;1003;Pont Audibert rive Nord vers le sud;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;116
+2005;1003;Pont Audibert rive Nord vers le sud;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;139
+2005;1003;Pont Audibert rive Nord vers l'ouest;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;9
+2004;1003;Pont Audibert rive Nord vers le sud;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;69
+2004;1003;Pont Audibert rive Nord vers l'ouest;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;7
+2004;1003;Pont Audibert rive Nord vers l'ouest;2004-09-22T17:30:00+02:00;2004-09-22;17:30:00;mercredi;10
+2002;1003;Pont Audibert rive Nord vers le sud;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;5
+2002;1003;Pont Audibert rive Nord vers l'est;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;15
+2001;1003;Pont Audibert rive Nord vers l'est;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;4
+2000;1003;Pont Audibert rive Nord vers l'est;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;4
+1999;1003;Pont Audibert rive Nord vers le nord;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;27
+1999;1003;Pont Audibert rive Nord vers le sud;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;58
+1999;1003;Pont Audibert rive Nord vers l'est;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;4
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;149
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;142
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2017-09-28T17:30:00+02:00;2017-09-28;17:30:00;jeudi;323
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;12
+2016;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;4
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;119
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;14
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;13
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;302
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;10
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;328
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;83
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;22
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;24
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;18
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;66
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;21
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;33
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2012-09-27T14:00:00+02:00;2012-09-27;14:00:00;jeudi;11
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;24
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;9
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;116
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;103
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;83
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;12
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;7
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;6
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;54
+2004;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;4
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;63
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;9
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;51
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2001-09-15T17:30:00+02:00;2001-09-15;17:30:00;samedi;4
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;26
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;36
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2000-09-15T17:30:00+02:00;2000-09-15;17:30:00;vendredi;66
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;122
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;96
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;4
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;42
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;1999-09-15T17:30:00+02:00;1999-09-15;17:30:00;mercredi;17
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;20
+2020;1001;Bd Kennedy devant le Chateau vers l'ouest;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;19
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;26
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;85
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;27
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;82
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;61
+2020;1003;Pont Audibert rive Nord vers l'ouest;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;53
+2020;1003;Pont Audibert rive Nord vers l'ouest;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;5
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2020-09-17T17:30:00+02:00;2020-09-17;17:30:00;jeudi;438
+2019;1000;Quai de la Fosse vers l'est;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;109
+2019;1000;Quai de la Fosse vers l'est;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;61
+2019;1000;Quai de la Fosse vers l'ouest;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;107
+2018;1000;Quai de la Fosse vers l'est;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;260
+2018;1000;Quai de la Fosse vers l'est;2018-09-27T14:00:00+02:00;2018-09-27;14:00:00;jeudi;99
+2017;1000;Quai de la Fosse vers l'ouest;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;100
+2015;1000;Quai de la Fosse vers l'est;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;77
+2015;1000;Quai de la Fosse vers l'est;2015-09-24T14:00:00+02:00;2015-09-24;14:00:00;jeudi;71
+2014;1000;Quai de la Fosse vers l'est;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;67
+2014;1000;Quai de la Fosse vers l'est;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;130
+2010;1000;Quai de la Fosse vers l'est;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;31
+2010;1000;Quai de la Fosse vers l'ouest;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;38
+2010;1000;Quai de la Fosse vers l'ouest;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;95
+2009;1000;Quai de la Fosse vers l'ouest;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;42
+2009;1000;Quai de la Fosse vers l'ouest;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;124
+2008;1000;Quai de la Fosse vers l'est;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;92
+2006;1000;Quai de la Fosse vers l'est;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;52
+2005;1000;Quai de la Fosse vers l'est;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;50
+2004;1000;Quai de la Fosse vers l'est;2004-09-15T14:00:00+02:00;2004-09-15;14:00:00;mercredi;37
+2003;1000;Quai de la Fosse vers l'est;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;21
+2003;1000;Quai de la Fosse vers l'ouest;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;29
+2002;1000;Quai de la Fosse vers l'ouest;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;25
+2001;1000;Quai de la Fosse vers l'ouest;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;47
+2000;1000;Quai de la Fosse vers l'est;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;27
+1998;1000;Quai de la Fosse vers l'est;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;11
+1998;1000;Quai de la Fosse vers l'est;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;32
+2019;1001;Bd Kennedy devant le Chateau vers l'est;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;108
+2019;1001;Bd Kennedy devant le Chateau vers l'est;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;193
+2019;1001;Bd Kennedy devant le Chateau vers l'ouest;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;208
+2018;1001;Bd Kennedy devant le Chateau vers l'est;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;220
+2018;1001;Bd Kennedy devant le Chateau vers l'est;2018-09-27T17:30:00+02:00;2018-09-27;17:30:00;jeudi;225
+2016;1001;Bd Kennedy devant le Chateau vers l'est;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;267
+2016;1001;Bd Kennedy devant le Chateau vers l'est;2016-09-29T14:00:00+02:00;2016-09-29;14:00:00;jeudi;81
+2015;1001;Bd Kennedy devant le Chateau vers l'est;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;44
+2015;1001;Bd Kennedy devant le Chateau vers l'ouest;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;51
+2014;1001;Bd Kennedy devant le Chateau vers l'est;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;161
+2013;1001;Bd Kennedy devant le Chateau vers l'est;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;189
+2013;1001;Bd Kennedy devant le Chateau vers l'est;2013-10-01T17:30:00+02:00;2013-10-01;17:30:00;mardi;123
+2012;1001;Bd Kennedy devant le Chateau vers l'est;2012-09-27T17:30:00+02:00;2012-09-27;17:30:00;jeudi;114
+2011;1001;Bd Kennedy devant le Chateau vers l'est;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;55
+2010;1001;Bd Kennedy devant le Chateau vers l'ouest;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;40
+2009;1001;Bd Kennedy devant le Chateau vers l'est;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;47
+2008;1001;Bd Kennedy devant le Chateau vers l'ouest;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;104
+2008;1001;Bd Kennedy devant le Chateau vers l'ouest;2008-09-17T14:00:00+02:00;2008-09-17;14:00:00;mercredi;59
+2008;1001;Bd Kennedy devant le Chateau vers l'ouest;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;94
+2007;1001;Bd Kennedy devant le Chateau vers l'est;2007-09-19T14:00:00+02:00;2007-09-19;14:00:00;mercredi;60
+2005;1001;Bd Kennedy devant le Chateau vers l'est;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;87
+2005;1001;Bd Kennedy devant le Chateau vers l'est;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;76
+2005;1001;Bd Kennedy devant le Chateau vers l'ouest;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;40
+2003;1001;Bd Kennedy devant le Chateau vers l'est;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;45
+2003;1001;Bd Kennedy devant le Chateau vers l'ouest;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;54
+2001;1001;Bd Kennedy devant le Chateau venant du nord;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;
+1998;1001;Bd Kennedy devant le Chateau vers l'est;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;31
+1998;1001;Bd Kennedy devant le Chateau vers l'ouest;1998-09-15T14:00:00+02:00;1998-09-15;14:00:00;mardi;20
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;18
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;23
+2019;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;13
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2018-09-20T14:00:00+02:00;2018-09-20;14:00:00;jeudi;19
+2018;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;80
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;20
+2017;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2017-09-21T14:00:00+02:00;2017-09-21;14:00:00;jeudi;9
+2016;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2016-09-22T17:30:00+02:00;2016-09-22;17:30:00;jeudi;34
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;26
+2015;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2015-09-17T14:00:00+02:00;2015-09-17;14:00:00;jeudi;14
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;7
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;26
+2014;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2014-09-18T14:00:00+02:00;2014-09-18;14:00:00;jeudi;22
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2013-09-24T17:30:00+02:00;2013-09-24;17:30:00;mardi;35
+2013;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;18
+2012;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2012-09-20T14:00:00+02:00;2012-09-20;14:00:00;jeudi;23
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2011-09-22T17:30:00+02:00;2011-09-22;17:30:00;jeudi;26
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;17
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;24
+2011;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2011-09-29T17:30:00+02:00;2011-09-29;17:30:00;jeudi;53
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;22
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;38
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;62
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;6
+2010;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2010-09-15T17:30:00+02:00;2010-09-15;17:30:00;mercredi;16
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2009-09-22T17:30:00+02:00;2009-09-22;17:30:00;mardi;68
+2009;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2009-09-15T17:30:00+02:00;2009-09-15;17:30:00;mardi;32
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;19
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2008-09-10T17:30:00+02:00;2008-09-10;17:30:00;mercredi;42
+2008;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;5
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;73
+2007;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;22
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;22
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;21
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;55
+2006;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;13
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;61
+2005;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;17
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2004-09-22T14:00:00+02:00;2004-09-22;14:00:00;mercredi;22
+2004;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;22
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;15
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;12
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;10
+2003;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;7
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le sud;2002-09-22T17:30:00+02:00;2002-09-22;17:30:00;dimanche;5
+2002;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;9
+2000;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;17
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;22
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'est;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;14
+1999;1002;Intersection de boulevards Michelet, Orrion et Orieux vers l'ouest;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;7
+2019;1003;Pont Audibert rive Nord vers le nord;2019-09-19T17:30:00+02:00;2019-09-19;17:30:00;jeudi;339
+2019;1003;Pont Audibert rive Nord vers l'ouest;2019-09-26T14:00:00+02:00;2019-09-26;14:00:00;jeudi;22
+2019;1003;Pont Audibert rive Nord vers l'ouest;2019-09-26T17:30:00+02:00;2019-09-26;17:30:00;jeudi;34
+2017;1003;Pont Audibert rive Nord vers le nord;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;93
+2017;1003;Pont Audibert rive Nord vers le sud;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;337
+2017;1003;Pont Audibert rive Nord vers l'est;2017-09-21T17:30:00+02:00;2017-09-21;17:30:00;jeudi;61
+2016;1003;Pont Audibert rive Nord vers le sud;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;97
+2016;1003;Pont Audibert rive Nord vers l'ouest;2016-09-22T14:00:00+02:00;2016-09-22;14:00:00;jeudi;28
+2015;1003;Pont Audibert rive Nord vers le nord;2015-09-17T17:30:00+02:00;2015-09-17;17:30:00;jeudi;172
+2015;1003;Pont Audibert rive Nord vers l'est;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;76
+2015;1003;Pont Audibert rive Nord vers l'ouest;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;46
+2014;1003;Pont Audibert rive Nord vers l'est;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;42
+2013;1003;Pont Audibert rive Nord vers l'est;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;20
+2013;1003;Pont Audibert rive Nord vers l'ouest;2013-10-01T14:00:00+02:00;2013-10-01;14:00:00;mardi;19
+2011;1003;Pont Audibert rive Nord vers le sud;2011-09-29T14:00:00+02:00;2011-09-29;14:00:00;jeudi;64
+2011;1003;Pont Audibert rive Nord vers l'est;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;6
+2009;1003;Pont Audibert rive Nord vers le nord;2009-09-15T14:00:00+02:00;2009-09-15;14:00:00;mardi;34
+2008;1003;Pont Audibert rive Nord vers le sud;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;66
+2007;1003;Pont Audibert rive Nord vers le sud;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;105
+2007;1003;Pont Audibert rive Nord vers l'ouest;2007-09-19T17:30:00+02:00;2007-09-19;17:30:00;mercredi;
+2006;1003;Pont Audibert rive Nord vers le nord;2006-09-22T14:00:00+02:00;2006-09-22;14:00:00;vendredi;13
+2006;1003;Pont Audibert rive Nord vers le sud;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;75
+2006;1003;Pont Audibert rive Nord vers le sud;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;84
+2006;1003;Pont Audibert rive Nord vers l'est;2006-09-29T17:30:00+02:00;2006-09-29;17:30:00;vendredi;1
+2005;1003;Pont Audibert rive Nord vers l'est;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;14
+2005;1003;Pont Audibert rive Nord vers l'est;2005-09-22T17:30:00+02:00;2005-09-22;17:30:00;jeudi;9
+2005;1003;Pont Audibert rive Nord vers l'ouest;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;15
+2005;1003;Pont Audibert rive Nord vers l'ouest;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;16
+2004;1003;Pont Audibert rive Nord vers le nord;2004-09-15T17:30:00+02:00;2004-09-15;17:30:00;mercredi;50
+2003;1003;Pont Audibert rive Nord vers le nord;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;20
+2003;1003;Pont Audibert rive Nord vers le nord;2003-09-22T17:30:00+02:00;2003-09-22;17:30:00;lundi;39
+2003;1003;Pont Audibert rive Nord vers le sud;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;21
+2003;1003;Pont Audibert rive Nord vers l'est;2003-09-15T14:00:00+02:00;2003-09-15;14:00:00;lundi;2
+2002;1003;Pont Audibert rive Nord vers le nord;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;5
+2002;1003;Pont Audibert rive Nord vers le sud;2002-09-22T14:00:00+02:00;2002-09-22;14:00:00;dimanche;14
+2002;1003;Pont Audibert rive Nord vers l'ouest;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;13
+2002;1003;Pont Audibert rive Nord vers l'ouest;2002-09-15T17:30:00+02:00;2002-09-15;17:30:00;dimanche;11
+2001;1003;Pont Audibert rive Nord vers le nord;2001-09-15T14:00:00+02:00;2001-09-15;14:00:00;samedi;28
+2001;1003;Pont Audibert rive Nord vers l'est;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;5
+2001;1003;Pont Audibert rive Nord vers l'ouest;2001-09-22T14:00:00+02:00;2001-09-22;14:00:00;samedi;2
+2001;1003;Pont Audibert rive Nord vers l'ouest;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;3
+2000;1003;Pont Audibert rive Nord vers l'est;2000-09-22T17:30:00+02:00;2000-09-22;17:30:00;vendredi;3
+2000;1003;Pont Audibert rive Nord vers l'ouest;2000-09-15T14:00:00+02:00;2000-09-15;14:00:00;vendredi;2
+1998;1003;Pont Audibert rive Nord;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;110
+2019;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2019-09-19T14:00:00+02:00;2019-09-19;14:00:00;jeudi;20
+2018;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2018-09-20T17:30:00+02:00;2018-09-20;17:30:00;jeudi;360
+2017;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2017-09-28T14:00:00+02:00;2017-09-28;14:00:00;jeudi;132
+2015;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2015-09-24T17:30:00+02:00;2015-09-24;17:30:00;jeudi;224
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2014-09-18T17:30:00+02:00;2014-09-18;17:30:00;jeudi;312
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;93
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2014-09-25T14:00:00+02:00;2014-09-25;14:00:00;jeudi;9
+2014;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2014-09-25T17:30:00+02:00;2014-09-25;17:30:00;jeudi;8
+2013;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2013-09-24T14:00:00+02:00;2013-09-24;14:00:00;mardi;9
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;34
+2012;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2012-09-20T17:30:00+02:00;2012-09-20;17:30:00;jeudi;15
+2011;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2011-09-22T14:00:00+02:00;2011-09-22;14:00:00;jeudi;10
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2010-09-22T17:30:00+02:00;2010-09-22;17:30:00;mercredi;182
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2010-09-22T14:00:00+02:00;2010-09-22;14:00:00;mercredi;96
+2010;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2010-09-15T14:00:00+02:00;2010-09-15;14:00:00;mercredi;4
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;74
+2009;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2009-09-22T14:00:00+02:00;2009-09-22;14:00:00;mardi;7
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2008-09-10T14:00:00+02:00;2008-09-10;14:00:00;mercredi;55
+2008;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2008-09-17T17:30:00+02:00;2008-09-17;17:30:00;mercredi;66
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;81
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2007-09-12T17:30:00+02:00;2007-09-12;17:30:00;mercredi;6
+2007;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2007-09-12T14:00:00+02:00;2007-09-12;14:00:00;mercredi;6
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2006-09-22T17:30:00+02:00;2006-09-22;17:30:00;vendredi;99
+2006;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2006-09-29T14:00:00+02:00;2006-09-29;14:00:00;vendredi;0
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2005-09-15T14:00:00+02:00;2005-09-15;14:00:00;jeudi;54
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2005-09-15T17:30:00+02:00;2005-09-15;17:30:00;jeudi;142
+2005;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2005-09-22T14:00:00+02:00;2005-09-22;14:00:00;jeudi;5
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2003-09-15T17:30:00+02:00;2003-09-15;17:30:00;lundi;78
+2003;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2003-09-22T14:00:00+02:00;2003-09-22;14:00:00;lundi;44
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;102
+2002;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;2002-09-15T14:00:00+02:00;2002-09-15;14:00:00;dimanche;
+2001;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2001-09-22T17:30:00+02:00;2001-09-22;17:30:00;samedi;117
+2000;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2000-09-22T14:00:00+02:00;2000-09-22;14:00:00;vendredi;3
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;69
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;106
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'est;1999-09-22T14:00:00+02:00;1999-09-22;14:00:00;mercredi;7
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;1999-09-15T14:00:00+02:00;1999-09-15;14:00:00;mercredi;15
+1999;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;1999-09-22T17:30:00+02:00;1999-09-22;17:30:00;mercredi;38
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;1998-09-15T17:30:00+02:00;1998-09-15;17:30:00;mardi;40
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;1998-09-22T14:00:00+02:00;1998-09-22;14:00:00;mardi;6
+1998;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;1998-09-22T17:30:00+02:00;1998-09-22;17:30:00;mardi;4
+2020;1002;Intersection de boulevards Michelet, Orrion et Orieux vers le nord;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;37
+2020;1003;Pont Audibert rive Nord vers le nord;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;249
+2020;1003;Pont Audibert rive Nord vers l'est;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;42
+2020;1003;Pont Audibert rive Nord vers l'est;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;29
+2020;1003;Pont Audibert rive Nord vers l'est;2020-09-24T17:30:00+02:00;2020-09-24;17:30:00;jeudi;63
+2020;1003;Pont Audibert rive Nord vers l'ouest;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;22
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers le nord;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;186
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers le sud;2020-09-24T14:00:00+02:00;2020-09-24;14:00:00;jeudi;142
+2020;1004;Cours des 50 otages à l'intersection de la rue des halles vers l'ouest;2020-09-17T14:00:00+02:00;2020-09-17;14:00:00;jeudi;115

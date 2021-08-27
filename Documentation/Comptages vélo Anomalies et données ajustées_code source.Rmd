@@ -1,0 +1,709 @@
+---
+title: "Fiabilité des données de comptage et tendance d'évolution du vélo à Nantes (2014-2019)"
+author: "Florent Bédécarrats (Nantes Métropole)^[Ce document est un markdown (rmd) : il est généré de manière automatique par un script R, publié conjointement.  Cela permet à tout un chacun, à partir du script R, de consulter et vérifier le code et de reproduire le même résultat en l'exécutant depuis son ordinateur.]"
+date: "Version du 10/07/2020"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  word_document:
+    keep_md: yes
+    reference_docx: Comptage_modele.docx
+editor_options:
+  chunk_output_type: console
+csl: ieee-with-url.csl
+bibliography: biblio_comptage_velo.bib
+---
+
+>**Synthèse :** La Métropole de Nantes effectue depuis 2006 des comptages de passages de vélos sur certaines voies cyclables. Ces données sont disponibles depuis 2014 et, comme l'ensemble des informations produites par la collectivité, elles ont vocation à être ouvertes sur le portail data.nantesmetropole.fr. Mais ces données comportent des erreurs : des dysfonctionnements divers (pannes ou dérèglement des capteurs, perturbations ou réorganisations provisoires des axes de circulation...) provoquent sporadiquement des relevés nuls ou massivement surestimés. Sur vingt compteurs, les relevés erronés sont minoritaires par rapport aux relevés valides, mais l'ampleur des erreurs suffit encore à fausser les tendances d'évolution observées si on se contente d'agréger les données brutes en sommes ou en moyennes mensuelles ou annuelles. Nantes Métropole publie donc les données brutes de ces compteurs exploitables pour la période 2014-2019 en ajoutant deux variables : un indicateur qui signale pour chaque point de donnée si celui-ci est vraisemblablement erroné et une valeur de comptage ajustée. La détection d'anomalie et l'estimation de la valeur ajustée sont fondées sur un algotithme statistique que nous présentons dans cette note. La publication des données de comptage vélo s'accompagne d'une mise en garde et d'une notice explicative afin de mettre en garde les utilisateurs contre l'usage des données brutes et les encourager à tenir compte des anomalies détectées et à les remplacer par les valeurs ajustées pour des analyses de tendance.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+# Cette fonction installe les package requis si nécessaire, et les ouvre
+install_load <- function(mypkg) {
+  if (!is.element(mypkg, installed.packages()[,1])) {
+    install.packages(mypkg, repos='http://cran.us.r-project.org')
+  }
+  library(mypkg, character.only=TRUE)  
+}
+# On charge les librairies requises
+install_load("readODS") # Pour ouvrir les fichiers ods
+install_load("dplyr") # utilitaires pour la préparation de données
+install_load("lubridate")# facilite la gestion des dates et timestamps
+install_load("stringr") # # utilitaires qui facilite la manipulation de texte
+install_load("tidyr") # pour pivoter les tables
+install_load("ggplot2") # pour produire les graphs
+install_load("knitr") # pour visualiser le html dans R (uniquement pour le dev)
+install_load("readr") # pour des imports-exports en csv simplifiés
+install_load("sf") # pour manipuler des objets géographiques
+install_load("ggmap") # Pour des cartes simplifiées
+install_load("stringr") # Pour intervenir sur des varchar
+install_load("cowplot") # Pour combiner plusieurs graphs en 1
+install_load("tidyr") # Pour la fonction lag (% de croissance)
+install_load("kableExtra") # Pour peaufiner les graphs
+install_load("prophet") # Pour la modélisation de séries temporelles
+install_load("scales") # Harmoniser les dates dans les graphs empilés
+install_load("grid") # Ajouter le % de croissance sur les graphs
+```
+```{r import_data, include = FALSE}
+if ("bvelo.Rdata" %in% list.files()) {
+  load("bvelo.Rdata")
+} else { # si aucun des deux, on exécute le bloc suivant
+  bvelo <- read_ods("base-velo-2014-2020.ods", sheet = 1) 
+  save(bvelo, file = "bvelo.Rdata")
+}
+jf <- read_csv("jours-feries-seuls.csv")
+```
+
+
+# Introduction : l'inévitable imperfection des données de comptage vélo
+
+Les erreurs de mesure constituent un problème inévitable avec les données de capteurs : hors d'un laboratoire, celles-ci contiennent *toujours* des valeurs manquantes, surestimées ou sous-estimées. Cette difficulté est particulièrement prégnante pour les capteurs de comptage vélo, pour une série de raisons propre aux objets décomptés et aux technologies disponibles pour le faire[@ryus2014guidebook]. Ce problème a d'ailleurs déjà été documenté pour des capteurs de comptage vélo dans l'espace public, à Vancouver[@el_esawey2015estimation] ou à Zurich[@baehler2018comptages].  
+
+Des problèmes identiques affectent la mesure de fréquentation des services internet. Dans ce domaine, les outils d'analyse de séries chronologiques (rassemblés sous le terme "web analytics") se sont considérablement développés. La plupart des grandes plateformes web ont ainsi mis au point, fait valider dans des revues scientifiques et versé en open source des algorithmes qui rendent très aisée la détection d'anomalies, l'analyse de tendances et la prédiction. Nous appliquons ici l'un de ces algorithmes aux données de comptage vélos pour en améliorer la fiabilité et l'analyse.  
+
+\newpage
+
+# Boucles de comptage vélo à Nantes
+
+Le comptage des vélos est réalisé au moyen de boucles magnétiques placées sur ou dans la chaussée. Des boucles de comptage ont été installées sur le territoire de Nantes Métropole depuis les années 2000. La carte suivante indique leur localisation. La couleur des marqueurs traduit la date d'installation et la forme des marqueurs correspond au mode de transmission de la donnée (transmission automatique ou relevé manuel).
+
+```{r, fig.height = 7, fig.width = 6}
+# télécharger le fichier depuis data.gouv
+# download.file(url = "https://www.data.gouv.fr/fr/datasets/r/4597fc7b-2161-4891-ba8a-1de22c4d7384", destfile = NM)
+
+# Chargement des données de boucles vélo transmises par la DD
+bv <- read_csv("boucles velos/csv/boucles velos.csv") %>%
+  mutate(`Mode de transmission` = ifelse(is.na(Observatio),
+                         "Transmission automatique", "Relevé manuel"))
+bv_an <- bv %>%
+  group_by(annee_crea) %>%
+  summarise(n = n()) %>%
+  mutate(`Année d'établissement` = ifelse(n > 1,
+                       paste0(annee_crea, " (",n, " points de comptage)"),
+                       paste0(annee_crea, " (",n, " point de comptage)")))
+bv <- bv %>%
+  left_join(bv_an, by = "annee_crea")
+
+# Périmètre incluant l'ensemble des points de comptage
+fond_carte <- get_stamenmap(bbox = c(left = min(bv$X) - 0.01, 
+                                     bottom = min(bv$Y) - 0.01,
+                                     right = max(bv$X) + 0.01, 
+                                     top = max(bv$Y) + 0.01),
+                            maptype = "toner-background", zoom = 11)
+
+# Création d'une carte incluant l'ensemble des points de comptage
+carte_bv <- ggmap(fond_carte) +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.line=element_blank(),
+        axis.text.x=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks=element_blank(),
+        axis.title.x=element_blank(),
+        axis.title.y=element_blank()) +
+    geom_point(data = bv, aes(x = X, y = Y,
+               colour = `Année d'établissement`,
+               shape = `Mode de transmission`)) +
+  scale_shape_manual(values = c(15, 16)) +
+  ggtitle("Localisation des boucles de comptage vélo de Nantes Métropole") +
+  scale_colour_brewer(direction = -1, palette = "YlOrRd") 
+
+# On extrait la légende
+legend <- get_legend(carte_bv)
+  
+# On retire la légende
+carte_bv_noleg <- carte_bv +
+  theme(legend.position = "none")
+
+# Boucles de vélo du centre
+bv_c <- bv %>%
+  filter(str_detect(`Libellé`,
+                    "Stade vers|Coteaux|Promenade de Bellevue|Sorinières",
+                    negate = TRUE))
+ 
+# Extraction d'une carte pour le centre
+map_c <- get_stamenmap(bbox = c(left = min(bv_c$X) - 0.01, 
+                              bottom = min(bv_c$Y) - 0.001,
+                              right = max(bv_c$X) + 0.01, 
+                              top = max(bv_c$Y) + 0.001),
+                     maptype = "toner-background", zoom = 13)
+
+# on ajoute des observations vides avec les années qui sont manquantes, pour
+# que les affectations de couleurs restent les mêmes que celle de la carte globale 
+bv_c <- bv_c %>%
+  add_row(`Année d'établissement` = "2000", `Mode de transmission` = "Relevé manuel") %>%
+  add_row(`Année d'établissement` = "2011", `Mode de transmission` = "Transmission automatique")
+
+# Création d'une carte du centre
+carte_bv_c <- ggmap(map_c) +
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        axis.line=element_blank(),
+        axis.text.x=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks=element_blank(),
+        axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.position = "none") +
+    geom_point(data = bv_c, aes(x = X, y = Y,
+               colour = `Année d'établissement`)) +
+  scale_colour_brewer(direction = -1, palette = "YlOrRd")
+
+# On combine la carte du centre et la légende globale
+bottom <-  plot_grid(carte_bv_c, legend, ncol = 2, nrow = 1)
+
+# On ajoute une mention des sources
+# On ajoute un titre
+source_fdcarte <- ggdraw() + 
+  draw_label(
+    "Fond de carte : données OpenStreetMap (ODbL), moteur de rendu graphique Stamen Design (CC-BY)",
+    size = 8, x = 0, hjust = 0)
+
+# On ajoute la carte globale
+plot_grid(carte_bv_noleg, bottom, source_fdcarte,
+          ncol = 1, nrow = 3, rel_heights = c(1, 1, 0.1))
+```
+
+Cette carte montre que la plupart des boucles de comptage ont été installées sur la commune de Nantes. La plupart l'ont été en 2006, puis d'autres ont été progressivement ajoutés entre 2011 et 2019. 
+
+# Problème de fiabilité des données brutes de comptage
+
+Comme c'est toujours le cas pour des capteurs placés hors d'un environnement confiné, les compteurs vélos placés sur la voie publique dysfonctionnent ponctuellement. Cela entraîne des valeurs manquantes ou erronées dans les séries de données chronologiques, qui faussent les statistiques agrégées produites à partir des données brutes. Pour illustrer ce point, on représente ci-dessous les relevés effectués sur le compteur localisé Chaussée de la Madeleine, et qui figure parmi les plus fiables.
+
+```{r graph_brut, fig.height=3.7, fig.width = 6.5}
+# On charge le fichier
+# bvelo <- read_ods("base-velo-2014-2020.ods", sheet = 1) 
+# bvelo2 <- bvelo %>%
+#   mutate(Date = dmy(Date)) %>%
+#   select(-Heure) %>%
+#   pivot_longer(-`Date`, names_to = "Boucle de comptage", values_to = "Nombre de passages quotidiens")
+# save(bvelo2, file = "bvelo2.Rdata")
+
+load("bvelo2.Rdata")
+
+# On garde 1 compteur
+madeleine <- bvelo2 %>%
+  filter(str_detect(`Boucle de comptage`, "Madeleine"))
+
+# On le représente
+madeleine <- madeleine %>%
+    mutate(`Année` = year(Date),
+           `Jour` = ymd(paste("2000", month(Date), day(Date), sep = "-"))) %>%
+  filter(`Année` != 2020) 
+
+madeleine %>%
+    ggplot(aes(x = Jour, y = `Nombre de passages quotidiens`))+
+    geom_line() +
+    scale_x_date(date_breaks = "1 month", date_labels = "%b") +
+    scale_y_continuous(breaks=c(0, 2500, 5000)) +
+    facet_grid(`Année`~.) +
+    theme(legend.position="none") +
+  ggtitle("Compteur vélo de la chaussée de la Madeleine : données brutes") +
+  theme(axis.title.x=element_blank(),
+        plot.title = element_text(size = 11, face = "bold"))
+```
+On observe sur le graphique certaines données manquantes (ex. ici d'avril à mai 2015) et des données apparemment aberrantes, anormalement basses (ex. mars 2014 ou avril 2015, avec des valeurs à 0), ou anormalement hautes (novembre 2016, octobre 2017). Le problème est que de telles variations biaisent les statistiques agrégées que l'on peut produire à partir des données brutes, comme le montre le tableau suivant.
+```{r table_brut}
+# On prépare des stats (somme, moyenne et médiane) et leur variation par année
+madeleine_stats <- madeleine %>%
+  mutate(`Année` = year(Date)) %>%
+  filter(`Année` != 2020) %>%
+  group_by(`Année`) %>%
+  summarise(Somme  = sum(`Nombre de passages quotidiens`, na.rm = TRUE),
+            Moyenne  = round(mean(`Nombre de passages quotidiens`, na.rm = TRUE)),
+            `Médiane` = median(`Nombre de passages quotidiens`, na.rm = TRUE)) %>%
+  mutate(var_somme = (Somme - lag(Somme, 1))/lag(Somme, 1),
+         var_somme = round(var_somme * 100, 1),
+         var_moy = (Moyenne - lag(Moyenne, 1))/lag(Moyenne, 1),
+         var_moy = round(var_moy * 100, 1),
+         var_med = (`Médiane` - lag(`Médiane`, 1))/lag(`Médiane`, 1),
+         var_med = round(var_med * 100, 1))
+
+# Une fonction pour présenter ensemble la valeur et sa variation
+pres_summary <- function(val, var_val) {
+  ifelse(is.na(var_val), as.character(val),
+         ifelse(var_val > 0, paste0(val, " (+", var_val, "%)"),
+         ifelse(var_val < 0, paste0(val, " (-", var_val, "%)"),
+         as.character(val))))
+}
+# Mise en forme du tableau
+mad_stats2 <- madeleine_stats %>%
+  mutate(Somme = pres_summary(Somme, var_somme),
+         Moyenne = pres_summary(Moyenne, var_moy),
+         `Médiane` = pres_summary(`Médiane`, var_med)) %>%
+  select(-contains("var_")) %>%
+  pivot_longer(-`Année`) %>%
+  pivot_wider(names_from =  `Année`, values_from = value) %>%
+  rename(`Année` = 1)
+
+# Représentation du tableau
+mad_stats2 %>%
+  kable("latex", align = "c",
+        caption = "Les données manquantes ou aberrantes biaisent les statistiques agrégées et les tendances d'évolution") %>%
+  row_spec(0,bold=TRUE) %>%
+  kable_styling(full_width = F) %>%
+  column_spec (2:7, width = "1.8cm") %>%
+  kable_styling(latex_options = "HOLD_position")
+  
+```
+La somme des passages comptés est une statistique qui est souvent produite par les services de déplacements ou les médias, car elle répond en principe à la question que l'on se pose spontanément avec ce type de données : est-ce que le nombre total de passages augmente dans le temps ? C'est toutefois l'agrégation la plus sensible aux erreurs de mesures ou aux données manquantes. La moyenne est moins affectée par les données manquantes, mais elle demeure faussée par les données aberrantes (par exemple les valeurs à 0 enregistrées en mars 2015 ou anormalement élevées en novembre 2016 et octobre 2017). La médiane est moins sensible aux valeurs extrêmes et donc meilleure indicatrice des tendances de fond. Mais c'est une statistique moins courante, dont le public est peu familier.
+
+# Fiabilisation des données et calcul de tendance
+
+Pour résoudre ce problème, nous utilisons un modèle qui repose sur l'identification des variations qui présentent une régularité périodique (ici, les variations hebdomadaires et annuelles) pour en déduire la tendance sous-jacente et détecter les inflexions dans cette tendance[@taylor2017forecasting]. Ce modèle tient compte des jours fériés et des données manquantes. Il a été rendu particulièrement aisé d'application grâce à la création d'une bibliothèque R intitulée `Prophet` et diffusée en licence ouverte[@taylor2019prophet]. On illustre dans le graphique ci-dessous la manière dont il peut être utilisé pour repérer les anomalies de mesure, en utilisant le même compteur que précédemment, celui placé Chaussée de la Madeleine.
+
+```{r anom_graph, fig.height = 7.3, fig.width = 6.5}
+# Chargement des données de vacances
+vac <- read_csv("jours-feries-seuls.csv") %>%
+  filter(year(date) %in% 2014:2020) %>%
+  select(ds = date, holiday = nom_jour_ferie)
+
+# On modifie légèrement la fonction 'plot' de prophet afin de pouvoir
+# pouvoir modifier la variable x de aes et ainsi aligner verticalement les
+# séries annuelles (sinon elles restent décalées horizontalement)
+
+madeleine <- madeleine %>%
+  rename(ds = 1, y = 3)
+
+# Cette fonction écarte du calcul de tendance les variables dès lors 
+# qu'on a trois valeurs nulles (0) consécutives. Le 0 est alors remplacé
+# par une valeur manquante. Ceci afin d'éviter de biaiser l'estimation de 
+# tendance lors de pannes prolongées.
+
+anom_3nuls <- function(x) {
+  x %>%
+    arrange(ds) %>%
+    mutate(y_orig  = y,
+           nul_3_consec = ifelse((y == 0 & lead(y) == 0 & lag(y) == 0) |
+                         (y == 0 & lead(y) == 0 & lead(y, 2) == 0) |
+                         (y == 0 & lag(y) == 0 & lag(y, 2) == 0),
+                         1, 0),
+           y = ifelse(nul_3_consec == 1, NA, y))
+}
+
+   
+madeleine2 <- anom_3nuls(madeleine)
+
+mouline_prophet <- function(x, 
+                            ylim_min = TRUE, 
+                            ecarte_3nuls = TRUE,
+                            negatives_to_0 = TRUE,
+                            titre_graph = "Variations récurrentes et détection des anomalies") {
+  
+  if (ecarte_3nuls == TRUE) {
+    x <- anom_3nuls(x)
+  }
+  
+  m <- x %>%
+    prophet(holidays = vac, yearly.seasonality = TRUE,
+            interval.width = 0.90)
+  
+  future <- make_future_dataframe(m, periods = 365) %>%
+    filter(ds >= min(x$ds[!is.na(x$y)], na.rm = TRUE), 
+           ds <= max(x$ds[!is.na(x$y)], na.rm = TRUE))
+  
+  forecast <- predict(m, future) %>%
+    filter(ds >= min(x$ds, na.rm = TRUE), ds <= max(x$ds, na.rm = TRUE)) %>%
+    mutate(ds2 = as_date(ds)) %>% # prophet change le format en POSIXct
+    left_join(x, by = c("ds2" = "ds")) %>%
+    mutate(anom = ifelse(y > yhat_upper, 1, ifelse(y < yhat_lower, 1, NA)),
+           anom_value = ifelse(is.na(anom), NA, y),
+           anom_magnitude = ifelse(anom == 1, (y - yhat_upper)/y,
+                                   ifelse(anom == -1, (yhat_lower-y)/y, NA)),
+           anom = abs(anom),
+           anom_magnitude = abs(anom_magnitude),
+           `Probabilité\nd'anomalie\n(indice)` = log(anom_magnitude+1))
+  
+  # dans certains cas, le modèle cumulatif de forecast peut produire
+  # des estimations négatives. Il est recommandé de les passer à 0 quand
+  # la variable estimée ne peut pas être négative (comme c'est le cas ici)
+  # cf. https://github.com/facebook/prophet, issues #1468, #1454, #1214...
+  if (negatives_to_0) {
+    forecast$yhat = ifelse(forecast$yhat < 0, 0, forecast$yhat)
+  }
+  
+  
+  # On enlève le y de forecast
+  forecast$y <- NULL
+  # On prépare le graph (un peu complexe, mais c'est plus joli comme ça)
+  graph <- m$history %>%
+    select(ds, y) %>%
+    right_join(forecast, by = "ds") %>%
+    arrange(ds) 
+  # Si la valeur a été remplacée par NA car 3 valeurs nulles (O) consécutifs,
+  # on réintègre la valuer initiale, on marque la valeur comme anormale mais
+  # on n'inclut pas de "halo" proportionnel à la proba d'erreur.
+  if (ecarte_3nuls) {
+    graph <- graph %>%
+      mutate(y = y_orig,
+             anom = ifelse(nul_3_consec == 1, 1, anom),
+             anom_value = ifelse(nul_3_consec == 1, y_orig, anom_value))
+  }
+  graph <- graph %>%
+    ggplot(aes(x = ymd(paste("2000", month(ds), day(ds), sep = "-")), 
+               y = y, shape = "Mesure")) +
+    labs(y = "nombre de passages à vélo") +
+    geom_point(size = 0.3, na.rm=TRUE) +
+    scale_shape_manual("", values = 19) +
+    geom_line(aes(y = yhat, color = "Modèle"),
+              size = 0.2, na.rm = TRUE) +
+    geom_ribbon(aes(ymin = yhat_lower, ymax = yhat_upper,
+                    fill = "Marge\nd'erreur"),
+                alpha = 0.5,
+                na.rm = TRUE) +
+    scale_fill_manual("", values = "#0072B2") +
+    scale_colour_manual("",values="blue") +
+    facet_grid(year(ds)~.) +
+    geom_point(aes(y = anom_value, alpha = "Anomalie\npossible"),
+               colour = "red", size = 0.3, shape = 16) +
+    scale_alpha_manual("",values = 1) +
+    geom_point(aes(size = `Probabilité\nd'anomalie\n(indice)`),
+               colour = "red", alpha = 0.2) +
+    theme(axis.title.x = element_blank(),
+          axis.title.y = element_blank(),
+          legend.position = "bottom",
+          legend.title = element_text(size = 9),
+          plot.title = element_text(size = 11, face = "bold")) + #, suppr ')+
+    # legend.position = "none") +
+    scale_x_date(date_breaks = "1 month", date_labels = "%b") +
+    guides(shape = guide_legend(order = 1),
+           color = guide_legend(order = 2),
+           fill = guide_legend(order = 3),
+           alpha = guide_legend(order = 4,
+                                override.aes=list(size = 3)),
+           size = guide_legend(nrow = 2, order = 5),
+           override.aes=list(size = 3))  +
+    ggtitle(titre_graph)
+  
+  if (ylim_min) {
+    graph <- graph + ylim(0, NA)
+  }
+  output <- list(m, forecast, graph)
+  names(output) <- c("model", "forecast", "graph")
+  return(output)
+}
+
+madeleine_p <- madeleine %>%
+  mouline_prophet(titre_graph = "Variations récurrentes et détection des anomalies (Chaussée de la Madeleine)")
+madeleine_p[["graph"]]
+```
+
+Sur le graphique précédent, la ligne bleue  correspond à l'estimation réalisée par le modèle. Pour parvenir à cette estimation, le modèle analyse les mesures de compteurs vélos pour identifier les variations qui se produisent régulièrement d'un jour à l'autre de la semaine et d'un jour à l'autre de l'année, et ainsi déduire la tendance d'évolution sur l'ensemble de la période. Quatre niveaux de variations (hebdomadaire, annuel, tendance de fond et points d'inflexion de la tendance de fond) se combinent pour estimer une valeur théorique pour chaque jour de la période. Une marge d'erreur (zone grisée) est calculée en fonction de la dispersion de l'ensemble des mesures issues des compteurs vélos par rapport à l'ensemble des estimations produites par le modèle. Le seuil de confiance retenu est de 90%, c'est-à-dire que les points situés au-delà de la zone grisée ont 9 chances sur 10 d'être des anomalies. Plus un point est éloigné de la zone grisée, plus la probabilité qu'il s'agisse d'une anomalie est élevée. Si le modèle prédit mal les valeurs observées dans la réalité, la marge d'erreur est très étendue. Ici, elle reste contenue, ce qui indique que le modèle fonctionne assez bien. Inclure des facteurs de météo (pluie, vent, température) permettrait sans doute d'améliorer la fiabilité du modèle. 
+
+En plus de la procédure décrite au paragraphe précédent, on a ajouté une étape préalable qui consiste à pointer comme anormale une donnée nulle dès lors qu'on observe trois données nulles successives. En effet, dans certains cas, un compteur en panne renvoie une donnée égale à 0 plutôt qu'une donnée nulle. En cas de pannes prolongées sur plusieurs semaines ou mois, l'algorithme `Prophet` n'interpréte plus ces données nulles comme une anomalie ponctuelle, mais comme une tendance de fond. Les experts de la circulation à vélo à Nantes Métropole indique qu'il est hautement improbable de n'avoir absolument aucun cycliste qui emprunte une voie pendant trois jours consécutif. Les tests réalisés montrent que l'algorithme fonctionne mieux avec ce filtre préalable : les calculs des tendances sur 9 compteurs qui déjà interprétables sans ce filtre ne sont pratiquement pas altérés. En revanche, les données de 11 compteurs additionnels deviennent exploitables avec ce filtre. 
+
+L'analyse des variations hebdomadaires et annuelles est intéressante, mais c'est surtout la mise en lumière des tendances de fond qui nous intéresse, car elle reflète l'évolution de l'usage du vélo dans la métropole nantaise.
+
+```{r trend_graph, fig.height = 2, fig.width = 6.5}
+# On calcule les tendances de GGplot
+stl <- prophet_plot_components(madeleine_p[["model"]], madeleine_p[["forecast"]], render_plot = FALSE)
+ 
+# On extrait les composants, qu'on reformate
+annuel <- stl[[1]] +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank()) # %>%
+ # ggtitle("Entre années")
+intra_heb <- stl[[3]] +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.x = element_text(angle = 45, hjust = 1)) # %>%
+ # ggtitle("Entre jours de la semaine")
+intra_an <- stl[[4]] +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_x_datetime(labels = date_format('%B')) # %>%
+ # ggtitle("Entre jours de l'année")
+
+# On les réorganise
+plots_row <- plot_grid(intra_heb, intra_an, annuel , 
+                     ncol = 3, nrow = 1) 
+
+# On ajoute un titre
+title <- ggdraw() + 
+  draw_label(
+    "Variations récurrentes intra-hebdomadaires et intra-annuelles et tendance de fond\n(Chaussée de la Madeleine)",
+    size = 10, x = 0, hjust = 0) +
+  theme(
+    # add margin on the left of the drawing canvas,
+    # so title is aligned with left edge of first plot
+    plot.margin = margin(0, 0, 0, 15)
+  )
+plot_grid(
+  title, plots_row,
+  ncol = 1,
+  # rel_heights values control vertical title margins
+  rel_heights = c(0.2, 1)
+)
+
+```
+```{r}
+ # On prépare quelques variables pour ce qui suit
+
+m_first <- madeleine_p[["forecast"]]$trend[1]
+m_last <- madeleine_p[["forecast"]]$trend[nrow(madeleine_p[["forecast"]])]
+d_first <- madeleine_p[["forecast"]]$ds[1]
+d_last <- madeleine_p[["forecast"]]$ds[nrow(madeleine_p[["forecast"]])]
+duree <- time_length(d_last - d_first, "year")
+croiss_tot <- round((m_last - m_first)/m_first * 100)
+croiss_an <- round(((m_last/m_first)^(1/duree)-1)*100,1)
+```
+
+Il est assez surprenant de constater la stabilité de l'augmentation dans le cas du compteur situé Chaussée de la Madeleine. L'algorithme utilisé repère les inflexions dans la tendance de fond (une infime diminution du rythme de croissance peut être décelée en 2018) et elles seraient visibles si on avait des modulations importantes sur la période. Les autres compteurs dont les tendances sont présentées plus bas montrent des inflexions plus marquées entre 2014 et 2018.
+
+Ainsi, on observe que les comptages vélos effectués à la Madeleine reflètent, une fois corrigé le "bruit" des mesures, une augmentation très importante du vélo : +`r croiss_tot`% sur `r duree` années, soit une croissance de +`r croiss_an`% par an en moyenne.
+
+# Application à l'ensemble des compteurs exploitables à Nantes
+
+Qu'il s'agisse de sommes, moyennes ou médianes, les données en valeur absolue ne sont pas comparables entre elles. Pris isolément, aucun capteur n'est représentatif de l'usage global du vélo de la ville. Le nombre de passages qu'il capture dépend de circonstances arbitraires : Relève-t'il l'ensemble des passages sur la voie ou seulement ceux qui sont sur la piste cyclable ? S'agit-il d'un passage obligé ou y a-t-il des axes par lesquelles le flux est dispersé (exemple d'un pont par opposition à des rues parallèles) ?, etc. En revanche, l'évolution d'un même capteur au cours du temps reflète l'évolution relative globale de l'usage du vélo sur cet axe, sous réserve que la circulation n'ait pas été structurellement modifiée pendant la période (piétonnisation, fermeture d'autres axes, etc.)
+
+Une part importante des compteurs placés à Nantes a connu des dysfonctionnements trop importants sur des périodes trop prolongées pour être exploitables. On trouve toutefois 20 compteurs qui disposent de séries chronologiques ininterrompues sur plusieurs années, et dont aucune variation invraisemblable n'indique de dysfonctionnement prolongé des dispositifs. Nous présentons ci-dessous les tendances de variations sur la période pour les 18 principaux.
+
+```{r}
+# Une fonction pour calculer la croissance annuelle
+cr_an <- function(pr) {
+  m_first <- pr[["forecast"]]$trend[1]
+  m_last <- pr[["forecast"]]$trend[nrow(pr[["forecast"]])]
+  d_first <- pr[["forecast"]]$ds[1]
+  d_last <- pr[["forecast"]]$ds[nrow(pr[["forecast"]])]
+  duree <- time_length(d_last - d_first, "year")
+  c_tot <- round((m_last - m_first)/m_first * 100)
+  c_an <- round(((m_last/m_first)^(1/duree)-1)*100,1)
+  return(c_an)
+}
+
+# Une fonction pour boucler sur les compteurs des différentes villes
+process_boucle <- function(base, nom, ylim_min = FALSE) {
+  # Filtre
+  db<- base %>%
+  filter(`Boucle de comptage` == nom) %>%
+  filter(year(Date) != 2020) %>%
+  rename(ds = Date, y = `Nombre de passages quotidiens`)
+  # Mouline en pr
+  pr <- mouline_prophet(db, ylim_min, 
+                        titre_graph = paste0(
+                          "Variations récurrentes et détection des anomalies (",
+                          nom, ")"))
+  decomp <- prophet_plot_components(pr[["model"]], pr[["forecast"]], render_plot = FALSE)
+  croiss_an <- cr_an(pr)
+  output <- list(pr, decomp, croiss_an)
+  names(output) <- c("modele", "composantes", "stat")
+  return(output)
+}
+
+boucles <- unique(bvelo2$`Boucle de comptage`)[-c(12, 13, 16, 17, 18, 22, 27, 28, 29, 30, 49)]
+
+# On nettoie les noms
+boucles2 <- boucles %>%
+  tibble() %>%
+  rename(nom = 1) %>%
+  mutate(nom = str_replace(nom, "Chauss.{2}e", "Chaussée"),
+         nom = str_replace(nom, "Torti.*re", "Tortière"),
+         nom = str_replace(nom, "Sorini.*res", "Sorinières"),
+         nom = str_replace(nom, "L.{2}ger", "Léger"),
+         nom = str_remove(nom, "( |[0-9]|-)*$"),
+         nom = str_replace_all(nom, "_", " "))
+
+boucles2 <- boucles2$nom
+
+nantes <- vector(mode = "list", length = length(boucles))
+
+# Ne tourne que la première fois
+if (!(file.exists("modeles/nantes_ok.Rdata"))) {
+  for (i in 1:length(boucles)) {
+    nantes[[i]] <- process_boucle(bvelo2, boucles[i])
+  }
+  names(nantes) <- boucles2
+  save(nantes, file = "modeles/nantes_ok.Rdata")
+} else {
+  load(file = "modeles/nantes_ok.Rdata")
+}
+```
+```{r, fig.height=8, fig.width=6.5}
+
+boucles2_ok <- c(9,7,12, # 50 otages, Madeleine, Chapelle sur Erdre
+                 22,23,39, # Bretagne x2, Saint Léger
+                 30,31,35, # Haudaudine x2, Mauves
+                 19, 20, 1, #Briand x 2, Malakof E
+                 10,11,2, # De Gaulle, Malakoff O
+                 5,6,21) # Calvaire x2, Tabarly
+# On crée un vecteur vide où stocker les graphs
+nantes_t <- vector(mode = "list", length = 9)
+# on remplit les graphs
+for (i in 1:length(boucles2_ok)) {
+  # On prépare la stat à ajouter
+  v <- nantes[[boucles2_ok[i]]]$stat[[1]]
+  v <- ifelse(v >= 0, paste0("+",v,"%"), paste0(v,"%"))
+  # On extrait les graphs
+  nantes_t[[i]] <- nantes[[boucles2_ok[i]]]$composantes[[1]]+
+            theme(axis.title.x = element_blank(),
+                  axis.title.y = element_blank(),
+                  plot.title = element_text(size = 8)) +
+    ggtitle(paste(boucles2[boucles2_ok[i]],"\n(moy.=",
+                  v, "/an)"))
+}
+# On les imprime
+plot_grid(nantes_t[[1]], nantes_t[[2]], nantes_t[[3]], nantes_t[[4]],
+          nantes_t[[5]], nantes_t[[6]], nantes_t[[7]], nantes_t[[8]],
+          nantes_t[[9]], nantes_t[[10]], nantes_t[[11]], nantes_t[[12]],
+          nantes_t[[13]], nantes_t[[14]],nantes_t[[15]], nantes_t[[16]],
+          nantes_t[[17]], nantes_t[[18]],
+          nrow = 6, ncol = 3)
+```
+
+Le présent rapport et le jeu de données complet sont disponibles sur data.nantesmetropole.fr. Sur la même page, se trouve également un fichier html qui permet de visualiser les relevés détaillés et les tendances sous-jacentes (intra-hebdomadaires, intra-annuelles et tendance de fond) des 20 capteurs disposés sur le territoire de la Métropole de Nantes sont disponibles dans l'annexe jointe à cette note.
+
+# Comparaison avec d'autres métropoles françaises
+
+## Rennes
+
+Rennes publie en open data les données brutes de quatre capteurs disposés sur son territoire. Les méta-données associées à ces comptages indiquent que ces capteurs dénombrent à la fois les passages des vélos et ceux des piétons. Certains articles en ligne indiquent toutefois que l'un des compteurs (place de Bretagne) est dédié exclusivement aux vélos[@collet_place_2018].
+Deux caractéristiques des données de Rennes gênent les comparaisons avec Nantes. D'une part, elles cumulent comptages piétons et vélos, alors que Nantes ne décompte que les vélos.  D'autre part, trois des compteurs (Place de Bretagne, rue d'Isly et rue de Chezyelles) ont été disposés il y a moins d'un an et demi, ce qui limite notre capacité à distinguer des tendances claires. Le capteur placé sur le Boulevard Georges Pompidou contient des données plus anciennes, mais son fonctionnement a visiblement été interrompu mi-2018. Comme à Nantes, les données de Rennes présentent des anomalies, qui semblent toutefois bien détectées par le modèle.
+
+```{r, fig.height=6, fig.width=6.5}
+rennes_bv <- rennes_eco_counter_data <- read_delim("~/Statistiques/Boucles comptage vélo/rennes-eco-counter-data.csv", 
+    ";", escape_double = FALSE, trim_ws = TRUE)
+
+rennes_boucles <- unique(rennes_bv$name)
+
+rennes_bv <- rennes_bv %>%
+  group_by(name, date(date)) %>% 
+  summarise(`Nombre de passages quotidiens` = sum(counts, na.rm = TRUE)) %>%
+  rename(Date = `date(date)`, `Boucle de comptage` = name)
+
+rennes <- vector(mode = "list", length = length(rennes_boucles))
+# Ne tourne que la première fois
+if (!(file.exists("modeles/rennes_ok.Rdata"))) {
+  for (i in 1:length(rennes_boucles)) {
+    rennes[[i]] <- process_boucle(rennes_bv, rennes_boucles[i])
+  }
+  names(rennes) <- rennes_boucles
+  save(rennes, file = "modeles/rennes_ok.Rdata")
+} else {
+load(file = "modeles/rennes_ok.Rdata")
+}
+comp_r1 <- plot_grid(
+  rennes[[1]]$modele$graph + theme(legend.position = "none")+
+    ggtitle(rennes_boucles[1]) + 
+    theme(plot.title = element_text(size = 10, face = "bold")),
+  rennes[[4]]$modele$graph + theme(legend.position = "none")+
+    ggtitle(rennes_boucles[2]) + 
+    theme(plot.title = element_text(size = 10, face = "bold")),
+    nrow = 2, ncol = 1)
+  # rennes[[3]]$modele$graph + theme(legend.position = "none")+
+  #   ggtitle(rennes_boucles[3]) + 
+  #   theme(plot.title = element_text(size = 10, face = "bold")),
+comp_r2 <- plot_grid(
+  rennes[[2]]$modele$graph + theme(legend.position = "none") +
+    ggtitle(rennes_boucles[4]) + 
+    theme(plot.title = element_text(size = 10, face = "bold")),
+  nrow = 1, ncol = 1)
+
+comp_r2
+cat("\n")
+```
+```{r, fig.height=5, fig.width=6.5}
+comp_r1
+cat("\n")
+```
+```{r, fig.height=2, fig.width=6.5}
+# On crée un vecteur vide où stocker les graphs
+rennes_t <- vector(mode = "list", length = 4)
+# on remplit les graphs
+for (i in 1:4) {
+  # On prépare la stat à ajouter
+  v <- rennes[[i]]$stat[[1]]
+  v <- ifelse(v >= 0, paste0("+",v,"%"), paste0(v,"%"))
+  # On extrait les graphs
+  rennes_t[[i]] <- rennes[[i]]$composantes[[1]]+
+            theme(axis.title.x = element_blank(),
+                  axis.title.y = element_blank(),
+                  plot.title = element_text(size = 8)) +
+    ggtitle(paste(rennes_boucles[i],"\n(moy.=",
+                  v, "/an)"))
+}
+trends_r <- plot_grid(rennes_t[[1]], rennes_t[[2]], rennes_t[[4]], 
+                      nrow = 1, ncol = 3)
+trends_r 
+```
+
+## Lille
+
+Le site d'open data de Lille Métropole fournit les données de 46 points de comptage, collectées entre 2016 et 2018. Les données de 25 de ces compteurs sont exploitables pour l'analyse. Les autres ne contiennent qu'une année de relevés, ou des données comportant une part trop importante d'erreurs flagrantes pour en tirer une tendance. Nous présentons ci-dessous les données des 12 compteurs exploitables enregistrant le plus de passage.
+
+```{r}
+lille_bv <- read_delim("lille-comptages-velo.csv", 
+                        ";", escape_double = FALSE, trim_ws = TRUE)
+
+lille_boucles <- unique(lille_bv$`Nom capteur`)
+
+lille_bv <- lille_bv %>%
+  mutate(Date = date(`Date et heure`)) %>%
+  group_by(`Nom capteur`, Date) %>% 
+  summarise(`Nombre de passages quotidiens` = sum(`Nombre de passages`, na.rm = TRUE)) %>%
+  rename(`Boucle de comptage` = `Nom capteur`)
+
+lille <- vector(mode = "list", length = length(lille_boucles))
+
+# Ne tourne que la première fois
+if (!(file.exists("modeles/lille_ok.Rdata"))) {
+  for (i in 1:length(lille_boucles)) {
+    lille[[i]] <- process_boucle(lille_bv, lille_boucles[i])
+  }
+  names(lille) <- lille_boucles
+  save(lille, file = "modeles/lille_ok.Rdata")
+} else {
+load("modeles/lille_ok.Rdata")
+}
+
+```
+```{r}
+# Compteurs exploitables à Lille
+lille_ok <- c(1,6,8,9,10,13,17,18,19,20,23,24,26,29,30,31,32,
+              34,35,38,39,40,41,42,43) %>%
+  tibble() %>%
+  rename(rank = 1)
+# On extrait la valeur finale de la tendance modélisée
+for (i in 1:nrow(lille_ok)) {
+  j <- lille_ok$rank[i]
+  lille_ok$max[i] <- tail(lille[[j]]$composantes[[1]]$data$trend, 1)
+  lille_ok$name[i] <- names(lille)[j]
+}
+# On ordonne par ordre décroissant
+lille_ok <- lille_ok %>%
+  arrange(desc(max))
+# On crée un vecteur vide où stocker les graphs
+lille_t <- vector(mode = "list", length = 12)
+# on remplit les graphs
+for (i in 1:12) {
+  # On prépare la stat à ajouter
+  v <- lille[[lille_ok$rank[i]]]$stat[[1]]
+  v <- ifelse(v >= 0, paste0("+",v,"%"), paste0(v,"%"))
+  lille_t[[i]] <- lille[[lille_ok$rank[i]]]$composantes[[1]]+
+            theme(axis.title.x = element_blank(),
+                  axis.title.y = element_blank(),
+                  plot.title = element_text(size = 8)) +
+    ggtitle(paste(lille_boucles[lille_ok$rank[i]],"\n(moy.=",
+                  v, "/an)"))
+}
+
+# On les imprime
+plot_grid(lille_t[[1]], lille_t[[2]], lille_t[[3]], lille_t[[4]],
+          lille_t[[5]], lille_t[[6]], lille_t[[7]], lille_t[[8]],
+          lille_t[[9]], lille_t[[10]], lille_t[[11]], lille_t[[12]],
+          nrow = 4, ncol = 3)
+
+```
+
+
+# Ouverture et utilisation des données de comptage à Nantes
+
+
+Sur la base des éléments mentionnés dans cette note, nous trois actions sont mises en oeuvre :   
+
+- **Publier au fil de l'eau les données comptages à partir de 2020 :** depuis début 2020, les données de comptage de tous les compteurs fixes à Nantes Métropole sont publiées quotidiennement  à mesure qu'elles sont produites. Les données de comptage d'un jour sont ainsi mises en ligne le lendemain sur le portail data.nantesmetropole.fr. Mais ces données ne permettent pas de réaliser des analyses de tendance. Un repérage des erreurs est effectué, mais en utilisant une méthode plus basique que celle présentée ici, qui se limite à signaler une erreur potentielle lorsque plusieurs  relevés horaires sont nuls ou manquants. 
+- **Publier l'historique des données de comptage depuis 2014** pour les 20 compteurs exploitables mentionnés plus haut. Compte tenu des difficultés exposées dans ce document, nous publions ces données avec les variables suivantes : date, compteur, valeur mesurée, anomalie détectée et valeur ajustée. Une note explicative est incluse en en-tête du jeu de donnée afin que les réutilisateurs potentiels en soient conscients des précautions requises pour l'analyse de ces données. Les données au fil de l'eau mentionnées au point précédent seront ajoutées tous les ans à ce jeu de données.
+- **Publier cette note technique ainsi que le code associé** (R) qui a servi à la détection des anomalies et la modélisation de valeurs théoriques.
+
+# Notes

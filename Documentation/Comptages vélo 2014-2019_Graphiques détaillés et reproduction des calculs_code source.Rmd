@@ -1,0 +1,280 @@
+---
+title: 'Comptages vélo à Nantes : données brutes, anomalies et données ajustées (graphiques détaillés et reproduction des calculs)'
+author: "Florent Bédécarrats"
+date: "10/07/2020"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+editor_options:
+  chunk_output_type: console
+---
+
+# Présentation du contenu
+Ce document est un rapport automatique qui accompagne la publication du jeu de données "Fiabilité des données de comptage et tendance d'évolution du vélo à Nantes (2014-2019)" publié sur data.nantesmetropole.fr. Ce rapport a été produit de manière automatique par un logiciel statistique open source nommé "R". Un fichier source terminant par ".rmd" est publié conjointement avec le rapport : il s'agit du code source qui a permis de produire le rapport. Tout un chacun peut installer R sur son ordinateur, charger le code source, le contenu et reproduire, à partir des données brutes de comptage, la détection d'anomalie et les valeurs ajustées incluses dans le jeu de données "Comptages vélo à Nantes 2014-2019)" publié sur data.nantesmetropole.fr.
+
+
+```{r, results = "asis", echo = F, message=F, warning=F, fig.width=12, fig.height=20}
+# Ce code est conçu pour reproduire la détection d'anomalie.
+# Certaines lignes de code sont commentées (précédés d'un dièze : '#")
+# Ces lignes commentées ont permis de reformater les données brutes à partir
+# du format dans lequel elles étaient disponibles en interne à la collectivité.
+# Le fait de les commenter les empêchent de s'exécuter, car les données
+# disponibles en ligne sont déjà formatées. Mais on les conserve pour permettre
+# de repartir des données source au format initial si besoin.
+
+# Cette fonction installe les librairies R manquantes pour l'exécution du code 
+install_load <- function(mypkg) {
+  if (!is.element(mypkg, installed.packages()[,1])) {
+    install.packages(mypkg, repos='http://cran.us.r-project.org')
+  }
+  library(mypkg, character.only=TRUE)  
+}
+
+# On charge les librairies requises. 
+# On précise entre crochets la version de la librarie utilisée
+# install_load("readODS") # Pour ouvrir les fichiers ods [1.6.7]
+install_load("dplyr") # utilitaires pour la préparation de données [0.8.5]
+install_load("lubridate")# facilite la gestion des dates et timestamps [1.7.8]
+install_load("stringr") # # facilite la manipulation de texte [1.4.0]
+install_load("tidyr") # pour pivoter les tables [1.0.2]
+install_load("ggplot2") # pour produire les graphs [3.3.0]
+install_load("readr") # enregistrement et chargement optimisé des csv [1.3.1]
+install_load("prophet") # Pour la modélisation de séries temporelles
+install_load("cowplot") # Pour combiner plusieurs graphs en 1
+
+# # Reformatage des données brutes depuis le format original
+# bvelo <- read_ods("base-velo-2014-2020.ods", sheet = 1)
+# bvelo <- bvelo %>%
+#    mutate(Date = dmy(Date)) %>% # mise au format des dates
+#      select(-Heure)  %>% # on supprime le champ Heure vide (données par jour)
+#    pivot_longer(-Date,
+#                 names_to = "compteur",
+#                 values_to = "comptage_releve")
+# 
+# # On conserve les capteurs dont les données semblent exploitables
+# bvelo <- bvelo %>%
+#   filter(compteur %in% c(
+#     "Chaussée de la Madeleine", "Cours_Des_50_Otages_Sud",
+#     "Bd Malakoff vers Est", "Bd Malakoff vers Ouest",
+#     "Pont_A_de_Bretagne_Nord_vers_Sud",   "Pont_A_de_Bretagne_Sud_vers_Nord",
+#     "Pont_Haudaudine_vers_Nord", "Pont_Haudaudine_vers_Sud",
+#     "Bouaye_cote_maison", "Bouaye_cote_stade",
+#     "Calvaire_vers_Est", "Calvaire_vers_Ouest",
+#     "La Chapelle sur Erdre",  "De_Gaulle_vers_Nord", "De_Gaulle_vers_Sud",
+#     "Pont A. Briand vers Nord", "Pont A. Briand vers Sud",
+#     "Pont Tabarly vers Sud", "Prairie_de_Mauves", "Saint Léger les Vignes"))
+# write_csv(bvelo, "bvelo.csv")
+bvelo <- read_csv("bvelo.csv")
+
+##### AJOUTER ICI UN CHARGEMENT DIRECT DEPUIS LE JEU DE DONNEES
+
+
+# On télécharge le jeu des jours feriés d'Etalab afin de les prendre en compte
+jf <- "https://etalab.github.io/jours-feries-france-data/csv/jours_feries_metropole.csv"
+download.file(url = jf, "jours_feries.csv")
+jours_feries <- read_csv("jours_feries.csv") %>%
+  filter(annee %in% 2014:2020) %>%
+  select(ds = date, holiday = nom_jour_ferie)
+
+# Cette fonction écarte du calcul de tendance les variables dès lors 
+# qu'on a trois valeurs nulles (0) consécutives. Le 0 est alors remplacé
+# par une valeur manquante. Ceci afin d'éviter de biaiser l'estimation de 
+# tendance lors de pannes prolongées. Les valeurs écartées sont bien sûr
+# conservées dans les données brutes.
+anom_3nuls <- function(x) {
+  x %>%
+    arrange(ds) %>%
+    mutate(y_orig  = y,
+           nul_3_consec = ifelse((y == 0 & lead(y) == 0 & lag(y) == 0) |
+                         (y == 0 & lead(y) == 0 & lead(y, 2) == 0) |
+                         (y == 0 & lag(y) == 0 & lag(y, 2) == 0),
+                         1, 0),
+           y = ifelse(nul_3_consec == 1, NA, y))
+}
+
+
+# Cette fonction applique l'algorithme prophet aux données de comptage
+mouline_prophet <- function(x, 
+                            ylim_min = TRUE, 
+                            ecarte_3nuls = TRUE,
+                            negatives_to_0 = TRUE,
+                            titre_graph = "Variations récurrentes et détection des anomalies") {
+  
+  if (ecarte_3nuls == TRUE) {
+    x <- anom_3nuls(x)
+  }
+  
+  m <- x %>%
+    prophet(holidays = jours_feries, yearly.seasonality = TRUE,
+            interval.width = 0.90)
+  
+  future <- make_future_dataframe(m, periods = 365) %>%
+    filter(ds >= min(x$ds[!is.na(x$y)], na.rm = TRUE), 
+           ds <= max(x$ds[!is.na(x$y)], na.rm = TRUE))
+  
+  forecast <- predict(m, future) %>%
+    filter(ds >= min(x$ds, na.rm = TRUE), ds <= max(x$ds, na.rm = TRUE)) %>%
+    mutate(ds2 = as_date(ds)) %>% # prophet change le format en POSIXct
+    left_join(x, by = c("ds2" = "ds")) %>%
+    mutate(anom = ifelse(y > yhat_upper, 1, ifelse(y < yhat_lower, 1, NA)),
+           anom_value = ifelse(is.na(anom), NA, y),
+           anom_magnitude = ifelse(anom == 1, (y - yhat_upper)/y,
+                                   ifelse(anom == -1, (yhat_lower-y)/y, NA)),
+           anom = abs(anom),
+           anom_magnitude = abs(anom_magnitude),
+           `Probabilité\nd'anomalie\n(indice)` = log(anom_magnitude+1))
+  
+  # dans certains cas, le modèle cumulatif de forecast peut produire
+  # des estimations négatives. Il est recommandé de les passer à 0 quand
+  # la variable estimée ne peut pas être négative (comme c'est le cas ici)
+  # cf. https://github.com/facebook/prophet, issues #1468, #1454, #1214...
+  if (negatives_to_0) {
+    forecast$yhat = ifelse(forecast$yhat < 0, 0, forecast$yhat)
+  }
+  
+  
+  # On enlève le y de forecast
+  forecast$y <- NULL
+  # On prépare le graph (un peu complexe, mais c'est plus joli comme ça)
+  graph <- m$history %>%
+    select(ds, y) %>%
+    right_join(forecast, by = "ds") %>%
+    arrange(ds) 
+  # Si la valeur a été remplacée par NA car 3 valeurs nulles (O) consécutifs,
+  # on réintègre la valuer initiale, on marque la valeur comme anormale mais
+  # on n'inclut pas de "halo" proportionnel à la proba d'erreur.
+  if (ecarte_3nuls) {
+    graph <- graph %>%
+      mutate(y = y_orig,
+             anom = ifelse(nul_3_consec == 1, 1, anom),
+             anom_value = ifelse(nul_3_consec == 1, y_orig, anom_value))
+  }
+  graph <- graph %>%
+    ggplot(aes(x = ymd(paste("2000", month(ds), day(ds), sep = "-")), 
+               y = y, shape = "Mesure")) +
+    labs(y = "nombre de passages à vélo") +
+    geom_point(size = 0.3, na.rm=TRUE) +
+    scale_shape_manual("", values = 19) +
+    geom_line(aes(y = yhat, color = "Modèle"),
+              size = 0.2, na.rm = TRUE) +
+    geom_ribbon(aes(ymin = yhat_lower, ymax = yhat_upper,
+                    fill = "Marge\nd'erreur"),
+                alpha = 0.5,
+                na.rm = TRUE) +
+    scale_fill_manual("", values = "#0072B2") +
+    scale_colour_manual("",values="blue") +
+    facet_grid(year(ds)~.) +
+    geom_point(aes(y = anom_value, alpha = "Anomalie\npossible"),
+               colour = "red", size = 0.3, shape = 16) +
+    scale_alpha_manual("",values = 1) +
+    geom_point(aes(size = `Probabilité\nd'anomalie\n(indice)`),
+               colour = "red", alpha = 0.2) +
+    theme(axis.title.x = element_blank(),
+          axis.title.y = element_blank(),
+          legend.position = "bottom",
+          legend.title = element_text(size = 9),
+          plot.title = element_text(size = 11, face = "bold")) + #, suppr ')+
+    # legend.position = "none") +
+    scale_x_date(date_breaks = "1 month", date_labels = "%b") +
+    guides(shape = guide_legend(order = 1),
+           color = guide_legend(order = 2),
+           fill = guide_legend(order = 3),
+           alpha = guide_legend(order = 4,
+                                override.aes=list(size = 3)),
+           size = guide_legend(nrow = 2, order = 5),
+           override.aes=list(size = 3))  +
+    ggtitle(titre_graph)
+  
+  if (ylim_min) {
+    graph <- graph + ylim(0, NA)
+  }
+  output <- list(m, forecast, graph)
+  names(output) <- c("model", "forecast", "graph")
+  return(output)
+}
+
+# Une fonction pour calculer la croissance annuelle
+cr_an <- function(pr) {
+  m_first <- pr[["forecast"]]$trend[1]
+  m_last <- pr[["forecast"]]$trend[nrow(pr[["forecast"]])]
+  d_first <- pr[["forecast"]]$ds[1]
+  d_last <- pr[["forecast"]]$ds[nrow(pr[["forecast"]])]
+  duree <- time_length(d_last - d_first, "year")
+  c_tot <- round((m_last - m_first)/m_first * 100)
+  c_an <- round(((m_last/m_first)^(1/duree)-1)*100,1)
+  return(c_an)
+}
+
+# Une fonction pour appliquer le modèle aux diférents compteurs
+process_boucle <- function(base, nom, ylim_min = FALSE) {
+  # Filtre
+  db <- base %>%
+    filter(compteur == nom) %>%
+    filter(year(Date) != 2020) %>%
+    rename(ds = Date, y = comptage_releve)
+  # Mouline en pr
+  pr <- mouline_prophet(db, ylim_min, 
+                        titre_graph = paste0(
+                          "Variations récurrentes et détection des anomalies (",
+                          nom, ")"))
+  decomp <- prophet_plot_components(pr[["model"]], pr[["forecast"]], render_plot = FALSE)
+  croiss_an <- cr_an(pr)
+  output <- list(pr, decomp, croiss_an)
+  names(output) <- c("modele", "composantes", "stat")
+  return(output)
+}
+
+
+# On récupère les noms de chaque compteur
+compteurs <- unique(bvelo$compteur)
+# On crée une liste vide
+nantes <- vector(mode = "list", length = length(compteurs))
+# On prépare les données pour chaque compteur
+for (i in 1:length(nantes)) {
+  nantes[[i]] <- process_boucle(bvelo, compteurs[i])
+}
+names(nantes) <- compteurs
+# On dispose les éléments successivement dans la page html
+for (i in 1:length(nantes)) {
+  cat("#", names(nantes[i]), "\n")
+  graph <- nantes[[i]]$modele$graph 
+  j <- length(nantes[[i]]$composantes)
+  trend <- nantes[[i]]$composantes[[1]] +
+    theme(axis.title.x = element_blank(),
+          axis.title.y = element_blank(),
+          axis.text.x = element_text(angle = 45, hjust = 1))
+  weekly <- nantes[[i]]$composantes[[j-1]] +
+    theme(axis.title.x = element_blank(),
+          axis.title.y = element_blank(),
+          axis.text.x = element_text(angle = 45, hjust = 1))
+  yearly <- nantes[[i]]$composantes[[j]] +
+    theme(axis.title.x = element_blank(),
+          axis.title.y = element_blank(),
+          axis.text.x = element_text(angle = 45, hjust = 1))
+  comp <- plot_grid(weekly, yearly, trend, nrow = 1)
+  all <- plot_grid(graph, comp, ncol = 1, rel_heights = c(6,1))
+  print(all)
+  # On ajoute une ligne avec la croissance moyenne annuelle
+  v <- nantes[[i]]$stat[[1]]
+  v <- ifelse(v >= 0, paste0("+",v,"%"), paste0(v,"%"))
+  v <- paste("Variation moyenne de", v, "par an.")
+  cat(v)
+  cat(" ", "\n", "\n")
+}
+
+bvelo2 <- tibble()
+for (i in 1:length(nantes)) {
+  temp <- tibble(
+    date = nantes[[i]][["modele"]][["forecast"]][["ds2"]],
+    compteur = nantes[[i]][["modele"]][["forecast"]][["compteur"]],
+    comptage_releve = nantes[[i]][["modele"]][["forecast"]][["y_orig"]],
+    anomalie = nantes[[i]][["modele"]][["forecast"]][["anom"]],
+    comptage_ajuste = round(nantes[[i]][["modele"]][["forecast"]][["yhat"]]))
+  bvelo2 <- bind_rows(bvelo2, temp)
+}
+
+write_csv(bvelo2, "bvelo3.csv")
+
+```
+

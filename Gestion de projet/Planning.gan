@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-03-22" view-index="0" gantt-divider-location="411" resource-divider-location="300" version="2.8.11" locale="fr">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="241" order="0"/>
+        <field id="tpd4" name="Date de début" width="85" order="1"/>
+        <field id="tpd5" name="Date de fin" width="81" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="16" name="Discussion avec le client" color="#8cb6ce" meeting="false" start="2021-03-19" duration="1" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="Préparation environnement de travail" color="#8cb6ce" meeting="false" start="2021-03-22" duration="1" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true"/>
+        <task id="20" name="Définition des besoins" color="#8cb6ce" meeting="false" start="2021-03-23" duration="1" complete="0" thirdDate="2021-03-16" thirdDate-constraint="0" expand="true"/>
+        <task id="34" name="Planification du projet" color="#8cb6ce" meeting="false" start="2021-03-23" duration="1" complete="0" thirdDate="2021-03-18" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="Recherche et extraction données" color="#8cb6ce" meeting="false" start="2021-03-24" duration="1" complete="0" thirdDate="2021-03-22" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="Analyse et visualisation données" color="#8cb6ce" meeting="false" start="2021-03-25" duration="4" complete="0" thirdDate="2021-03-23" thirdDate-constraint="0" expand="true"/>
+        <task id="15" name="Rédaction cahier des charges" color="#8cb6ce" meeting="false" start="2021-03-31" duration="7" complete="0" thirdDate="2021-03-19" thirdDate-constraint="0" expand="true"/>
+        <task id="31" name="Réflexion architecture base de données" color="#8cb6ce" meeting="false" start="2021-04-05" duration="12" complete="0" thirdDate="2021-03-18" thirdDate-constraint="0" expand="true"/>
+        <task id="43" name="Nettoyage et traitement des données" color="#8cb6ce" meeting="false" start="2021-04-07" duration="5" complete="0" thirdDate="2021-03-25" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Création base de données" color="#8cb6ce" meeting="false" start="2021-04-12" duration="1" complete="0" thirdDate="2021-03-29" thirdDate-constraint="0" expand="true"/>
+        <task id="9" name="Analyse données / requêtes" color="#8cb6ce" meeting="false" start="2021-04-12" duration="5" complete="0" thirdDate="2021-04-02" thirdDate-constraint="0" expand="true"/>
+        <task id="61" name="Rédaction raport final" color="#8cb6ce" meeting="false" start="2021-04-13" duration="23" complete="0" thirdDate="2021-04-01" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Création tables" color="#8cb6ce" meeting="false" start="2021-04-19" duration="1" complete="0" thirdDate="2021-03-31" thirdDate-constraint="0" expand="true"/>
+        <task id="47" name="Insertion données" color="#8cb6ce" meeting="false" start="2021-04-20" duration="2" complete="0" thirdDate="2021-03-25" thirdDate-constraint="0" expand="true"/>
+        <task id="52" name="Préparation livraison intermédiaire" color="#8cb6ce" meeting="false" start="2021-04-23" duration="2" complete="0" thirdDate="2021-03-25" thirdDate-constraint="0" expand="true"/>
+        <task id="14" name="Création &amp; mise en page dashboard" color="#8cb6ce" meeting="false" start="2021-04-23" duration="8" complete="0" thirdDate="2021-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="Mise en forme résultats / dataviz" color="#8cb6ce" meeting="false" start="2021-04-26" duration="12" complete="0" thirdDate="2021-03-16" thirdDate-constraint="0" expand="true"/>
+        <task id="39" name="Date de livraison intermédiaire" color="#8cb6ce" meeting="false" start="2021-04-27" duration="1" complete="0" thirdDate="2021-03-25" thirdDate-constraint="0" expand="true"/>
+        <task id="53" name="Ajout carte" color="#8cb6ce" meeting="false" start="2021-05-04" duration="2" complete="0" thirdDate="2021-03-25" thirdDate-constraint="0" expand="true"/>
+        <task id="68" name="Création répertoire métadonnées" color="#8cb6ce" meeting="false" start="2021-05-06" duration="2" complete="0" thirdDate="2021-04-01" thirdDate-constraint="0" expand="true"/>
+        <task id="69" name="Rédaction README" color="#8cb6ce" meeting="false" start="2021-05-10" duration="1" complete="0" thirdDate="2021-03-22" thirdDate-constraint="0" expand="true"/>
+        <task id="70" name="Présentation Powerpoint" color="#8cb6ce" meeting="false" start="2021-05-11" duration="2" complete="0" thirdDate="2021-03-22" thirdDate-constraint="0" expand="true"/>
+        <task id="55" name="Livraison du projet" color="#8cb6ce" meeting="false" start="2021-05-14" duration="1" complete="0" thirdDate="2021-03-25" thirdDate-constraint="0" expand="true"/>
+        <task id="65" name="Préparation soutenance" color="#8cb6ce" meeting="false" start="2021-05-17" duration="2" complete="0" thirdDate="2021-04-01" thirdDate-constraint="0" expand="true"/>
+        <task id="57" name="Soutenance" color="#8cb6ce" meeting="false" start="2021-05-19" duration="1" complete="0" thirdDate="2021-03-25" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

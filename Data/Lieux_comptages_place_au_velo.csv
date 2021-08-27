@@ -1,0 +1,6 @@
+identifiant;Lieu de comptage;Géométrie;geo_point_2d
+1000;Quai de la Fosse;"{""type"": ""Point"", ""coordinates"": [-1.56418, 47.20977]}";47.20977,-1.56418
+1003;Pont Audibert rive Nord;"{""type"": ""Point"", ""coordinates"": [-1.54995, 47.20893]}";47.20893,-1.54995
+1002;Intersection de boulevards Michelet, Orrion et Orieux;"{""type"": ""Point"", ""coordinates"": [-1.55673, 47.23311]}";47.23311,-1.55673
+1001;Bd Kennedy devant le Chateau;"{""type"": ""Point"", ""coordinates"": [-1.54952, 47.21538]}";47.21538,-1.54952
+1004;Cours des 50 otages à l'intersection de la rue des halles;"{""type"": ""Point"", ""coordinates"": [-1.5563, 47.2158]}";47.2158,-1.5563
